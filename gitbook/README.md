@@ -22,7 +22,7 @@ The Ethereum Layer 2 landscape is rapidly evolving, with new projects and techno
 With growthepie, you can expect:
 
 * **Detailed Metrics**: We provide comprehensive and up-to-date data on Layer 2 projects, including transaction count, number of active addresses, tvl, and more.
-* **Blockspace Analytics**: The main metrics only tell so much, this is why we want to dig deeper and analyze how exactly different Layer 2s are used. E.g. are some L2s mainly for gaming or financial use-cases?&#x20;
+* **Blockspace Analytics**: The main metrics only tell so much, this is why we want to dig deeper and analyze how exactly different Layer 2s are used. E.g. are some L2s mainly for gaming or financial use cases?&#x20;
 * **Project Comparisons**: Easily compare Layer 2 projects and technologies side-by-side to understand their strengths and weaknesses.
 * **Educational Resources**: Learn about Layer 2 technologies, their benefits, and how they fit into the broader Ethereum ecosystem through our educational content.
 

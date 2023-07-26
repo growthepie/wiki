@@ -16,6 +16,7 @@ Returns the daily metric values for all chains and some additional information (
 
 * **Daily active addresses:** `v1/metrics/daa.json`
 * **Transaction count:** `v1/metrics/txcount.json`
+* **Transaction costs:** `v1/metrics/txcosts.json`
 * **Total value locked:** `v1/metrics/tvl.json`
 * **Fees paid by users:** `v1/metrics/fees.json`
 * **Stablecoin market cap:** `v1/metrics/stables.json`
