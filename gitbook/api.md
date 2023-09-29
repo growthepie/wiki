@@ -4,31 +4,39 @@ Our API endpoint can be found at `https://api.growthepie.xyz/`
 
 ### Master endpoint
 
-Contains info on all supported chains and metrics
+Contains info on all supported chains and metrics.
 
 ```
 v1/master.json
 ```
 
-### Metrics endpoint
+### Fundamentals endpoint
 
-Returns the daily metric values for all chains and some additional information (e.g. 1d change).
+This is a very powerful endpoint. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5am UTC.
 
-* **Daily active addresses:** `v1/metrics/daa.json`
-* **Transaction count:** `v1/metrics/txcount.json`
-* **Transaction costs:** `v1/metrics/txcosts.json`
-* **Total value locked:** `v1/metrics/tvl.json`
-* **Fees paid by users:** `v1/metrics/fees.json`
-* **Stablecoin market cap:** `v1/metrics/stables.json`
+`v1/fundamentals.json`
 
-### Chains endpoint
+#### **Example Python**
 
-Returns all metrics on daily granularity for the selected chain.
+You can quickly load data on all Layer 2s into a Pandas dataframe using the following code snippet:
 
-* **Ethereum:** `v1/chains/ethereum.json`
-* **zkSync Era:** `v1/chains/zksync_era.json`
-* **Arbitrum:** `v1/chains/arbitrum.json`
-* **Optimism:** `v1/chains/optimism.json`
-* **ImmutableX:** `v1/chains/imx.json`
-* **Polygon zkEVM:** `v1/chains/polygon_zkevm.json`
+```python
+import requests
+import pandas as pd
 
+url = 'https://api.growthepie.xyz/v1/fundamentals.json'
+response = requests.get(url)
+df = pd.DataFrame(response.json())
+```
+
+#### Example PowerBI
+
+PowerBI is a powerful BI and data visulisation tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
+
+* Open new PowerBI file
+* Load data using the "Web" data connector
+* Paste the api endpoint in the URL field
+* Make sure the "value" column is formated as decimal
+* Load the data into your report and have fun exploring.
+
+Here is a quick video walkthrough: [https://x.com/web3\_data/status/1697573767751548953?s=20](https://x.com/web3\_data/status/1697573767751548953?s=20)
