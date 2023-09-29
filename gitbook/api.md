@@ -50,3 +50,16 @@ PowerBI is a powerful BI and data visualisation tool. If you want to load all La
 Here is a quick video walkthrough: [https://x.com/web3\_data/status/1697573767751548953?s=20](https://x.com/web3\_data/status/1697573767751548953?s=20)
 
 <figure><img src=".gitbook/assets/Screenshot 2023-09-29 092125.png" alt=""><figcaption></figcaption></figure>
+
+#### Example Google Sheets
+
+Sometimes it can be useful to have up-to-date Layer 2 data in Google Sheets. With our endpoint it is very simple.
+
+* Create app script for ImportJson function (code: [https://gist.github.com/paulgambill/cacd19da95a1421d3164](https://gist.github.com/paulgambill/cacd19da95a1421d3164))
+* Paste function in cell
+
+```
+=ImportJSON("https://api.growthepie.xyz/v1/fundamentals.json")
+```
+
+<figure><img src=".gitbook/assets/Screenshot 2023-09-29 093630.png" alt=""><figcaption></figcaption></figure>
