@@ -1,3 +1,9 @@
+---
+description: >-
+  On this page, you can find our different endpoints and some examples of how to
+  quickly connect them to your favorite data analytics tool.
+---
+
 # API
 
 Our API endpoint can be found at `https://api.growthepie.xyz/`
