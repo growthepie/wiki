@@ -4,7 +4,7 @@ Our API endpoint can be found at `https://api.growthepie.xyz/`
 
 ### Master endpoint
 
-Contains info on all supported chains and metrics.
+This endpoint contains info on all supported chains and metrics. It is mostly static data like chain names, important links, etc.
 
 ```
 v1/master.json
@@ -12,7 +12,7 @@ v1/master.json
 
 ### Fundamentals endpoint
 
-This is a very powerful endpoint. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5am UTC.
+This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5 a.m. UTC.
 
 `v1/fundamentals.json`
 
@@ -29,7 +29,7 @@ response = requests.get(url)
 df = pd.DataFrame(response.json())
 ```
 
-If you want to quickly visualize the datapoints you can use the dataframe plot function. Here filtered down to Arbitrum and transaction count:
+If you want to quickly visualize the data points you can use the dataframe plot function. Here filtered down to Arbitrum and transaction count:
 
 ```python
 df[(df['metric_key'] == 'txcount') & (df['origin_key'] == 'arbitrum')].sort_values('date').plot(x='date', y='value', figsize=(15, 5), title='Arbitrum Daily Transactions')
@@ -39,12 +39,12 @@ df[(df['metric_key'] == 'txcount') & (df['origin_key'] == 'arbitrum')].sort_valu
 
 #### Example PowerBI
 
-PowerBI is a powerful BI and data visualisation tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
+PowerBI is a powerful BI and data visualization tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
 
-* Open new PowerBI file
+* Open a new PowerBI file
 * Load data using the "Web" data connector
-* Paste the api endpoint in the URL field
-* Make sure the "value" column is formated as decimal
+* Paste the API endpoint in the URL field
+* Make sure the "value" column is formatted as decimal
 * Load the data into your report and have fun exploring.
 
 Here is a quick video walkthrough: [https://x.com/web3\_data/status/1697573767751548953?s=20](https://x.com/web3\_data/status/1697573767751548953?s=20)
@@ -53,7 +53,7 @@ Here is a quick video walkthrough: [https://x.com/web3\_data/status/169757376775
 
 #### Example Google Sheets
 
-Sometimes it can be useful to have up-to-date Layer 2 data in Google Sheets. With our endpoint it is very simple.
+Sometimes it can be useful to have up-to-date Layer 2 data in Google Sheets. With our endpoint, it is very simple.
 
 * Create app script for ImportJson function (code: [https://gist.github.com/paulgambill/cacd19da95a1421d3164](https://gist.github.com/paulgambill/cacd19da95a1421d3164))
 * Paste function in cell
