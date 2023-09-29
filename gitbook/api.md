@@ -8,7 +8,7 @@ description: >-
 
 Our API endpoint can be found at `https://api.growthepie.xyz/`
 
-### Master endpoint
+## Master endpoint
 
 This endpoint contains info on all supported chains and metrics. It is mostly static data like chain names, important links, etc.
 
@@ -16,13 +16,13 @@ This endpoint contains info on all supported chains and metrics. It is mostly st
 v1/master.json
 ```
 
-### Fundamentals endpoint
+## Fundamentals endpoint
 
 This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5 a.m. UTC.
 
 `v1/fundamentals.json`
 
-#### **Example Python**
+### **Example Python**
 
 You can quickly load data on all Layer 2s into a Pandas dataframe using the following code snippet:
 
@@ -43,7 +43,7 @@ df[(df['metric_key'] == 'txcount') & (df['origin_key'] == 'arbitrum')].sort_valu
 
 <figure><img src=".gitbook/assets/Screenshot 2023-09-29 091713.png" alt=""><figcaption></figcaption></figure>
 
-#### Example PowerBI
+### Example PowerBI
 
 PowerBI is a powerful BI and data visualization tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
 
@@ -57,7 +57,7 @@ Here is a quick video walkthrough: [https://x.com/web3\_data/status/169757376775
 
 <figure><img src=".gitbook/assets/Screenshot 2023-09-29 092125.png" alt=""><figcaption></figcaption></figure>
 
-#### Example Google Sheets
+### Example Google Sheets
 
 Sometimes it can be useful to have up-to-date Layer 2 data in Google Sheets. With our endpoint, it is very simple.
 

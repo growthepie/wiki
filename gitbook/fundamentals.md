@@ -1,5 +1,7 @@
 # Fundamentals
 
+## Activity
+
 ### Transaction count
 
 A transaction is an action that is triggered either by an EOA or smart contract and it is stored on-chain. Some examples of transactions are transfers (ETH, ERC20, ERC721), swaps, etc. Our goal with this metric is to analyze how many actions are executed. We exclude known system transactions.
@@ -24,15 +26,17 @@ The number of daily active addresses is a simple heuristic for the number of act
 * **Polygon zkEVM**: All unique addresses that sent a transaction&#x20;
 * **ImmutableX**: All unique addresses that actively interacted on ImmutableX (not mints, because they are not triggered by users themselves). We only consider unique sender addresses for deposits, withdrawals, orders, and transfers.
 
-### Transaction costs
-
-This metric aims to show how much users have to pay for a transaction. We calculate the median transaction costs. Why do we do that? Transaction costs depend on the gas used per transaction. Simple transactions (e.g. native transfers) use very little gas, while more complex transactions (e.g. a token swap) use more gas. By using the median transaction cost we are trying to report what the average transaction on this chain costs.
-
-The methodology for all chains is the same: Take gas used, multiply it by gas price, and then take the daily median value over all transactions.
+## Value locked
 
 ### Total value locked (TVL)
 
 This metric was mainly coined by L2Beat. It measures the net bridged value to a Layer 2. Basically, the amount of value that is locked in L1 bridges to L2s. It also includes native tokens such as ARB and OP. We take this value directly from L2Beat.&#x20;
+
+### Stablecoin market cap
+
+The amount of stablecoins (USDT, USDC, DAI, etc.) that are locked on a Layer 2.&#x20;
+
+## Economics
 
 ### Fees paid by users
 
@@ -46,10 +50,20 @@ The amount of (gas) fees that users paid in order to use the chain. We think tha
 * **Polygon zkEVM**: Gas usage \* gas price \* eth price of all transactions.&#x20;
 * **ImmutableX**: Users only pay fees to the protocol when they buy or sell NFTs. Usually, 1% of buy and sell orders go to the protocol. The sum of these protocol fees is our fees paid metric (marketplace fees not included because they don't go to the protocol).
 
-### Stablecoin market cap
+### Rent paid to L1
 
-The amount of stablecoins (USDT, USDC, DAI, etc.) that are locked on a Layer 2.&#x20;
+The gas fees paid by L2s to post transaction data & verification states onto Ethereum. We query Ethereum mainnet (full query: [https://dune.com/queries/2986216](https://dune.com/queries/2986216)) and use a Dune spell (thanks [https://twitter.com/0xKofi](https://twitter.com/0xKofi)).
 
+### Onchain profit
 
+Profit = Fees paid - Rent paid to L1
+
+## Convenience
+
+### Transaction costs
+
+This metric aims to show how much users have to pay for a transaction. We calculate the median transaction costs. Why do we do that? Transaction costs depend on the gas used per transaction. Simple transactions (e.g. native transfers) use very little gas, while more complex transactions (e.g. a token swap) use more gas. By using the median transaction cost we are trying to report what the average transaction on this chain costs.
+
+The methodology for all chains is the same: Take gas used, multiply it by gas price, and then take the daily median value over all transactions.
 
 ###
