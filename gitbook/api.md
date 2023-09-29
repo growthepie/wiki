@@ -29,9 +29,17 @@ response = requests.get(url)
 df = pd.DataFrame(response.json())
 ```
 
+If you want to quickly visualize the datapoints you can use the dataframe plot function. Here filtered down to Arbitrum and transaction count:
+
+```python
+df[(df['metric_key'] == 'txcount') & (df['origin_key'] == 'arbitrum')].sort_values('date').plot(x='date', y='value', figsize=(15, 5), title='Arbitrum Daily Transactions')
+```
+
+<figure><img src=".gitbook/assets/Screenshot 2023-09-29 091713.png" alt=""><figcaption></figcaption></figure>
+
 #### Example PowerBI
 
-PowerBI is a powerful BI and data visulisation tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
+PowerBI is a powerful BI and data visualisation tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
 
 * Open new PowerBI file
 * Load data using the "Web" data connector
@@ -40,3 +48,5 @@ PowerBI is a powerful BI and data visulisation tool. If you want to load all Lay
 * Load the data into your report and have fun exploring.
 
 Here is a quick video walkthrough: [https://x.com/web3\_data/status/1697573767751548953?s=20](https://x.com/web3\_data/status/1697573767751548953?s=20)
+
+<figure><img src=".gitbook/assets/Screenshot 2023-09-29 092125.png" alt=""><figcaption></figcaption></figure>
