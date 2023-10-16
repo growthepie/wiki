@@ -1,6 +1,5 @@
 ---
-cover: ../.gitbook/assets/Untitled.png
-coverY: 0
+description: Ethereum L2, incubated by Coinbase
 ---
 
 # 🔵 Base
@@ -16,6 +15,8 @@ It is devoted to paving the path for other builders and companies to bring thems
 **3. Developer-Centric Vision**: Base is crafting a developer platform in line with crypto and Ethereum values, actively collaborating and seeking insights to uphold industry standards.
 
 > “For the first time, it puts everyone on the same playing field, if you are building from anywhere in the world, you can build an app that everyone can use and have access to” Jesse Pollak, Head of Protocols at Coinbase and the Creator of Base
+
+##
 
 ## Usage
 
@@ -37,38 +38,53 @@ Check 👇 for more dapps and platforms on base
 
 You might also want to follow [@Base\_Explorer](https://x.com/Base\_Explorer/) for updates, facts and info in the ecpsystem and
 
-[https://x.com/Base\_Explorer/status/1690679583467778048?s=20](https://x.com/Base\_Explorer/status/1690679583467778048?s=20)
-
-***
-
-_New Update_ October 6, 2023
+{% embed url="https://x.com/Base_Explorer/status/1690679583467778048?s=20" %}
 
 #### How Secure/Decentralized is Base?
 
-To go in depth into security and decentralisation we recommend checking out L2 Beats page for Base 👇
+To go in-depth into security and decentralization we recommend checking out the L2 Beats page for Base 👇
 
-[https://l2beat.com/scaling/projects/base](https://l2beat.com/scaling/projects/base)
-
-***
+{% embed url="https://l2beat.com/scaling/projects/base" %}
 
 ### For Devs
 
 #### **Why build on Base?**
 
-*   **Backed by Ethereum:**
+<details>
 
-    Base combines Ethereum's robust security with Coinbase's expertise, ensuring a safe environment for your decentralized apps. Transition smoothly from Coinbase, Ethereum L1, and other compatible chains into Base.
-*   **Boosted by Coinbase:**
+<summary><strong>Backed by Ethereum</strong></summary>
 
-    With Base, decentralized app development is simplified, thanks to integration with Coinbase’s suite of products and tools. Developers can effortlessly tap into Coinbase's vast ecosystem, which boasts over 110M verified users and $80B in assets through Coinbase product integrations, easy fiat onramps, and powerful acquisition tools.
-*   **More Bang, Less Buck:**
+Base combines Ethereum's robust security with Coinbase's expertise, ensuring a safe environment for your decentralized apps. Transition smoothly from Coinbase, Ethereum L1, and other compatible chains into Base.
 
-    Base offers full EVM equivalence at a fraction of the cost and is committed to pushing forward the developer platform. You get all the fancy features without burning a hole in your pocket, offering features like gas-free transactions through intuitive Account Abstraction developer APIs and facilitating the creation of multichain apps with userfriendly bridges.
-*   **Open source:**
+</details>
 
-    Base's vision is a decentralized, open, and accessible platform, aspiring to set the standard with a modular, rollup-neutral Superchain driven by Optimism. As a CoreDevpartner with mism on the OPStack, they're fostering a vibrant developer community.
+<details>
 
-To go head on into the documentations and the boot camp to build your dapp, here are the links for your convenience:
+<summary><strong>Boosted by Coinbase</strong></summary>
+
+With Base, decentralized app development is simplified, thanks to integration with Coinbase’s suite of products and tools. Developers can effortlessly tap into Coinbase's vast ecosystem, which boasts over 110M verified users and $80B in assets through Coinbase product integrations, easy fiat onramps, and powerful acquisition tools.
+
+</details>
+
+<details>
+
+<summary><strong>More Bang, Less Buck</strong></summary>
+
+Base offers full EVM equivalence at a fraction of the cost and is committed to pushing forward the developer platform. You get all the fancy features without burning a hole in your pocket, offering features like gas-free transactions through intuitive Account Abstraction developer APIs and facilitating the creation of multichain apps with user-friendly bridges.
+
+</details>
+
+<details>
+
+<summary>Open Source</summary>
+
+Base's vision is a decentralized, open, and accessible platform, aspiring to set the standard with a modular, rollup-neutral Superchain driven by Optimism. As a Core Dev partner on the OPStack, they're fostering a vibrant developer community.
+
+</details>
+
+
+
+To go head-on into the documentation and the boot camp to build your dapp, here are the links for your convenience:
 
 [About Base in details | docs.base (1)](https://www.notion.so/About-Base-in-details-docs-base-1-5d72c647506b4a05a54db494b1b6f0bc?pvs=21)
 
@@ -80,13 +96,7 @@ To go head on into the documentations and the boot camp to build your dapp, here
 
 You might want to look at some of our charts to help you make your financial decisions
 
-***
-
-_New Update October 6, 2023_
-
 PS; As of now there is no token for Base, but there is already some other ways to invest in the platforms built on Base
-
-***
 
 #### Onchain Profit
 
@@ -100,11 +110,13 @@ See the usage trend of the usage and user base of Base. See current metrics [her
 
 To find the most active projects on Base the best tool is to explore the blockspace for contracts that have the highest consumption of gas or the highest transaction count. See current blockspace analytics [here](https://www.growthepie.xyz/blockspace/chain-overview).
 
+##
+
 ## Technology
 
 ### OP Stack Bedrock
 
-Base uses OP Stack, the Bedrock version, for building their chain and is considered as an OP chain within Optimism’s ecosystem.
+Base uses OP Stack, the Bedrock version, for building its chain and is considered an OP chain within Optimism’s ecosystem.
 
 #### **Why are developers choosing OP Stack?**
 
@@ -120,7 +132,7 @@ Each of these layers functions as an API, offering flexibility and customization
 
 #### Let's break down OP Stack further:
 
-Here I will provide a short explanation of the each layer accompanied by a mathematical representation, for better learning.
+Here I will provide a short explanation of each layer accompanied by a mathematical representation, for better learning.
 
 *   **Data Availability Layer**: Think of this as a storage unit, holding an array of bytes.
 
@@ -158,32 +170,63 @@ For more in-depth however concise explanation of OP Stack check this Youtube, it
 
 [https://youtu.be/jnVjhp41pcc?si=\_fK6krDT8xfkGLkz](https://youtu.be/jnVjhp41pcc?si=\_fK6krDT8xfkGLkz)
 
-### Why should you care about Superchain?
+### Why should you care about the Superchain?
 
 Toggle for more info
 
-* **Accelerate activity**
-  * Base will bring Coinbase’s onchain products and user base into the Superchain ecosystem, increasing activity in the Superchain while enabling Coinbase users to seamlessly interact with dapps and move assets across the ecosystem.
-* **Be a part of the Public Goods Infrastructure**
-  * Base will provide a percentage of the fees earned through transactions to the Optimism Collective to be apart of the Superchain, contributing back to funding the core public goods infrastructure of both the Superchain and the broader crypto economy.
-* **Easier development**
-  * Base’s collaboration with OP Labs and the optimism collective strives to make it easier for developers tobuild new L2s and rollups, and deploy their applications across the Superchain.
-  * For example, Base is collaborating with the Optimism Collective to co-create primitives (e.g. for identity) that can be used on L2s that join The Superchain, including Base and Optimism Mainnet.
-* **Build towards an interoperable crypto economy**
-  * Superchain will seamlessly integrate multiple op-chains, allowing for the shared utilization of collective resources.
-  * In the long run, this will also enable you to move your product seamlessly to another OP chain if youdecide it is more suitable to your desires.
+<details>
+
+<summary><strong>Accelerate activity</strong></summary>
+
+Base will bring Coinbase’s onchain products and user base into the Superchain ecosystem, increasing activity in the Superchain while enabling Coinbase users to interact with dapps and move assets across the ecosystem seamlessly.
+
+</details>
+
+<details>
+
+<summary><strong>Be a part of the Public Goods Infrastructure</strong></summary>
+
+Base will provide a percentage of the fees earned through transactions to the Optimism Collective to be apart of the Superchain, contributing back to funding the core public goods infrastructure of both the Superchain and the broader crypto economy.
+
+</details>
+
+<details>
+
+<summary><strong>Easier development</strong></summary>
+
+* Base’s collaboration with OP Labs and the optimism collective strives to make it easier for developers tobuild new L2s and rollups, and deploy their applications across the Superchain.
+
+<!---->
+
+* For example, Base is collaborating with the Optimism Collective to co-create primitives (e.g. for identity) that can be used on L2s that join The Superchain, including Base and Optimism Mainnet.
+
+</details>
+
+<details>
+
+<summary><strong>Build towards an interoperable crypto economy</strong></summary>
+
+* Superchain will seamlessly integrate multiple op-chains, allowing for the shared utilization of collective resources.
+
+<!---->
+
+* In the long run, this will also enable you to move your product seamlessly to another OP chain if youdecide it is more suitable to your desires.
+
+</details>
 
 For more in-depth reading on the topic of Superchain w recommend this article
 
-[https://www.notion.so/Superchain-Explainer-OP-Stack-Docs-92c7f795a1484a9d947cc6c3feefe2d5?pvs=4](https://www.notion.so/Superchain-Explainer-OP-Stack-Docs-92c7f795a1484a9d947cc6c3feefe2d5?pvs=4)
+{% embed url="https://stack.optimism.io/docs/understand/explainer/" %}
 
-[https://www.notion.so/Optimism-Goes-m-u-l-t-i-Superchain-The-Optimism-Collective-4533fddc8f74417d98b81bdc70dbae70?pvs=4](https://www.notion.so/Optimism-Goes-m-u-l-t-i-Superchain-The-Optimism-Collective-4533fddc8f74417d98b81bdc70dbae70?pvs=4)
+{% embed url="https://optimism.mirror.xyz/2jk3D1Y8-hid8YOCUUa6yXmsyzNCYYyFJP0Nhaey9x0" %}
+
+##
 
 ## Roadmap
 
 #### **Objective**
 
-In 2023, Base’s objective is to advance Base and Optimism Mainnet from a Stage 0 rollup, as characterized by Vitalik Buterin, to a Stage 1 rollup. This progression aims to enhance **decentralization** and **trustlessness** significantly.
+In 2023, Base’s objective is to advance Base and Optimism Mainnet from a Stage 0 rollup, as characterized by Vitalik Buterin, to a Stage 1 roll-up. This progression aims to enhance **decentralization** and **trustlessness** significantly.
 
 To realize this, Base is set to collaborate with **OP Labs** and the Optimism Collective.
 
@@ -203,19 +246,23 @@ To realize this, Base is set to collaborate with **OP Labs** and the Optimism Co
 
 In the subsequent year, 2024, the focus will be on elevating Base and Optimism Mainnet to Stage 2 rollups. The aspiration is to achieve decentralization and security levels parallel to those of Ethereum.
 
+##
+
 ## Featured Content
 
-#### **Public Launch First-Day post for Base**
+#### **Public Launch First-Day Post for Base**
 
-[https://x.com/growthepie\_eth/status/1690350934491369472?s=20](https://x.com/growthepie\_eth/status/1690350934491369472?s=20)
+{% embed url="https://x.com/growthepie_eth/status/1690350934491369472?s=20" %}
 
 #### **The flippening of daily transactions (Ethereum <> Base) for the first time**
 
-[https://x.com/growthepie\_eth/status/1693908678569517527?s=20](https://x.com/growthepie\_eth/status/1693908678569517527?s=20)
+{% embed url="https://x.com/growthepie_eth/status/1693908678569517527?s=20" %}
 
-## Official pages and Links
+## Official Pages and Links
 
-#### Documentation
+{% embed url="https://www.growthepie.xyz/chains/base" %}
+Base metrics on growthepie.xyz
+{% endembed %}
 
 [About Base in details | docs.base](https://www.notion.so/About-Base-in-details-docs-base-7065ed6b6e984dcc959678c945e3d794?pvs=21)
 
@@ -223,7 +270,7 @@ In the subsequent year, 2024, the focus will be on elevating Base and Optimism M
 
 [Introducing Base Camp: Learn Smart Contract Development At Your … — Base](https://www.notion.so/Introducing-Base-Camp-Learn-Smart-Contract-Development-At-Your-Base-e0a490c0451f44faaa97176fd5834b96?pvs=21)
 
-#### Must read Articles
+#### Must-Read Articles
 
 [Base is open for everyone — Base](https://www.notion.so/Base-is-open-for-everyone-Base-19382afe28874a52be6953ebeba7c62c?pvs=21)
 
@@ -235,5 +282,5 @@ In the subsequent year, 2024, the focus will be on elevating Base and Optimism M
 
 #### Videos and Podcasts
 
-[(1236) Coinbase's 'Base' Powering Layer 2 Summer - YouTube](https://www.notion.so/1236-Coinbase-s-Base-Powering-Layer-2-Summer-YouTube-027820b3f01d47feba9b4d0b57f5cfcc?pvs=21)
+{% embed url="https://www.youtube.com/watch?v=7dGU0_eEjq8" %}
 
