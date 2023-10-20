@@ -13,3 +13,7 @@
 
 * [🔵 Base](layer-2-chain-knowledge/base.md)
 * [⚪ Zora](layer-2-chain-knowledge/zora.md)
+
+***
+
+* [🟢 PGN](pgn.md)
