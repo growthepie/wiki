@@ -10,10 +10,40 @@ Our API endpoint can be found at `https://api.growthepie.xyz/`
 
 ## Master endpoint
 
-This endpoint contains info on all supported chains and metrics. It is mostly static data like chain names, important links, etc.
+This endpoint contains info on all supported chains and metrics. It is mostly static meta data like chain names, important links, etc.
 
 ```
 v1/master.json
+```
+
+## Contracts endpoint
+
+This endpoint returns all labeled contracts for all our covered chains. It includes contract address, contract name, project name, sub category key, and origin key (which is the chain)
+
+```
+v1/contracts.json
+```
+
+#### Sample Reponse
+
+```json
+[
+    {
+        "address": "0xEa2a41c02fA86A4901826615F9796e603C6a4491",
+        "contract_name": "BridgeToBase",
+        "project_name": "Base",
+        "sub_category_key": "erc721",
+        "origin_key": "base"
+    },
+    {
+        "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+        "contract_name": "Vault",
+        "project_name": "Balancer",
+        "sub_category_key": "dex",
+        "origin_key": "arbitrum"
+    },
+    ...
+]
 ```
 
 ## Fundamentals endpoint
@@ -21,6 +51,32 @@ v1/master.json
 This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5 a.m. UTC.
 
 `v1/fundamentals.json`
+
+#### Sample Response
+
+```json
+[
+    {
+        "metric_key": "daa",
+        "origin_key": "imx",
+        "date": "2023-04-21",
+        "value": 8300.0
+    },
+    {
+        "metric_key": "txcount",
+        "origin_key": "zksync_era",
+        "date": "2023-02-14",
+        "value": 6.0
+    },
+    {
+        "metric_key": "daa",
+        "origin_key": "imx",
+        "date": "2023-04-25",
+        "value": 7834.0
+    },
+    ...
+]
+```
 
 ### **Example Python**
 
