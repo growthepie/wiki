@@ -2,7 +2,7 @@
 description: Public Good Network supported by Gitcoin - Powered by OP Stack Bedrock
 ---
 
-# 🟢 PGN
+# 🟢 Public Goods Network
 
 ## Introduction
 
@@ -49,7 +49,7 @@ One of the most remarkable features of the Public Goods Network is its commitmen
 
 ### Gitcoin's Role
 
-PGN operates as a roll-up, managed collaboratively by [Gitcoin](https://www.gitcoin.co/) and [Conduit](https://conduit.xyz/), an independent infrastructure facilitator. It presents a unique approach to the distribution of sequencer fees. Rather than functioning for Gitcoin's benefit, it's geared towards those committed to creating enduring, credible, and substantial funding avenues for public initiatives. Read more about the sequencer fees of PGN $$->$$ [#technology](pgn.md#technology "mention")
+PGN operates as a roll-up, managed collaboratively by [Gitcoin](https://www.gitcoin.co/) and [Conduit](https://conduit.xyz/), an independent infrastructure facilitator. It presents a unique approach to the distribution of sequencer fees. Rather than functioning for Gitcoin's benefit, it's geared towards those committed to creating enduring, credible, and substantial funding avenues for public initiatives. Read more about the sequencer fees of PGN $$->$$ [#technology](public-goods-network.md#technology "mention")
 
 
 
@@ -61,7 +61,7 @@ The core purpose of PGN is to serve as a digital convergence zone for individual
 
 
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -123,7 +123,7 @@ equipped with bridging, transaction view, block explorer, and core infrastructur
 
 <summary>Security, Stability, and Scalability of an Ethereum L2</summary>
 
-PGN is powered by the EVM equivalent Bedrock version of OP Stack which offers you the security, stability, and scalability of an L2, with low costs, with all the benefits that OP Stack and the Superchain offers. To read more go to [#technology](pgn.md#technology "mention")
+PGN is powered by the EVM equivalent Bedrock version of OP Stack which offers you the security, stability, and scalability of an L2, with low costs, with all the benefits that OP Stack and the Superchain offers. To read more go to [#technology](public-goods-network.md#technology "mention")
 
 </details>
 
@@ -139,7 +139,7 @@ By running decentralized applications (dApps) on the PGN network, developers aut
 
 <summary>Contract Secured Revenue (In Development)</summary>
 
-Allows smart contract developers to claim a percentage of all transaction/gas fees paid by users when interacting with their smart contracts to support developers’ need for sustainable revenue sources. Read more [#roadmap](pgn.md#roadmap "mention")
+Allows smart contract developers to claim a percentage of all transaction/gas fees paid by users when interacting with their smart contracts to support developers’ need for sustainable revenue sources. Read more [#roadmap](public-goods-network.md#roadmap "mention")
 
 </details>
 
@@ -199,7 +199,7 @@ This is what the chain makes in profit onchain each day. It quantifies profitabi
 
 #### Public Goods Alliance
 
-<figure><img src=".gitbook/assets/The PG Alliance.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/The PG Alliance.gif" alt=""><figcaption></figcaption></figure>
 
 The Public Goods Alliance will be the governing and organizing body behind PGN. Anyone interested in building on PGN, receiving funding for public goods projects, or contributing to improving PGN is invited to participate.
 
@@ -215,7 +215,7 @@ You can reach out to PGN on Telegram via the “Alliance Discussion” channel. 
 
 Check out our Page about OP Stack for a short summary of OP Stack :point\_down:
 
-[op-stack.md](general-knowledge/op-stack.md "mention")
+[op-stack.md](../general-knowledge/op-stack.md "mention")
 
 
 
@@ -223,7 +223,7 @@ Public Goods Network also plans to integrate with Optimism Superchains.
 
 If you do not know exactly what that is check out our short summary of that :point\_down:
 
-[superchain.md](general-knowledge/superchain.md "mention")
+[superchain.md](../general-knowledge/superchain.md "mention")
 
 
 

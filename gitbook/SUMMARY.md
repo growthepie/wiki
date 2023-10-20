@@ -13,7 +13,4 @@
 
 * [🔵 Base](layer-2-chain-knowledge/base.md)
 * [⚪ Zora](layer-2-chain-knowledge/zora.md)
-
-***
-
-* [🟢 PGN](pgn.md)
+* [🟢 Public Goods Network](layer-2-chain-knowledge/public-goods-network.md)
