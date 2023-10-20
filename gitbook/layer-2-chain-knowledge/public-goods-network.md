@@ -147,7 +147,7 @@ Allows smart contract developers to claim a percentage of all transaction/gas fe
 Deploying contracts + Available development stacks
 {% endembed %}
 
-### For Investors:
+### For Investors
 
 #### Benefits
 
