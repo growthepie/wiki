@@ -1,8 +1,14 @@
 ---
-description: A short summary of what OP Stack is why developers choose it.
+description: A concise summary of what OP Stack is and why developers choose it.
 ---
 
 # 🧰 OP Stack
+
+{% hint style="success" %}
+Already know the basics, and you want to start building? Come here then [#devsources](op-stack.md#devsources "mention")
+{% endhint %}
+
+## Concise Summary
 
 The OP Stack is like the ultimate toolkit for L2 blockchain creation, masterfully crafted by the Optimism Collective. Think of it as a curated set of software tools 🧰, each handpicked and maintained by the experts at the Optimism Collective. Some tools lay the foundation, while others seamlessly integrate as modules 🧩.
 
@@ -56,12 +62,79 @@ The OP Stack marks the initial stage in the rapid growth of highly compatible La
 
 As we look ahead, the boundaries between op-chains will dissolve, giving rise to a unified **Superchain.** This Superchain will seamlessly integrate multiple op-chains, allowing for the shared utilization of collective resources.
 
+
+
+## Deeper look
+
 For more in-depth however concise explanation of OP Stack check this Youtube, it is fun to watch!
 
 {% embed url="https://youtu.be/jnVjhp41pcc?si=_fK6krDT8xfkGLkz" %}
 
+### Devsources
+
+_Here you get quick access to the most important pieces of docs and articles, curated for devs._
+
+***
+
+This guide is meant to help you kick off your OP Stack journey by taking you through the process of spinning up your very own OP Stack chain on the Ethereum Goerli testnet.&#x20;
+
+**Use the material to**
+
+* Perform tests and prepare for the superchain.
+* Modify it to adapt it to your own needs.
+
+{% hint style="info" %}
+Modifying your chain with significantly different parameters may make it incompatible with the superchain in the future
+{% endhint %}
+
+<details>
+
+<summary>What to expect?</summary>
 
 
-{% embed url="https://stack.optimism.io/docs/understand/explainer/" %}
 
-{% embed url="https://optimism.mirror.xyz/2jk3D1Y8-hid8YOCUUa6yXmsyzNCYYyFJP0Nhaey9x0" %}
+* Install dependencies
+
+<!---->
+
+* Build the source code
+
+<!---->
+
+* Generate and fund accounts and private keys
+
+<!---->
+
+* Configure your network
+
+<!---->
+
+* Deploy the L1 contracts
+
+<!---->
+
+* Initialize op-geth
+
+<!---->
+
+* Run op-geth
+
+<!---->
+
+* Run op-node
+
+<!---->
+
+* Get some Goerli ETH on your L2
+
+<!---->
+
+* Send some test transactions
+
+</details>
+
+{% embed url="https://stack.optimism.io/docs/build/getting-started/" %}
+
+**Estimated time of guide completion: 2 hours**
+
+***

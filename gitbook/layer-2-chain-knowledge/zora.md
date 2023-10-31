@@ -1,5 +1,5 @@
 ---
-description: NFT-Centric Layer 2 OP Chain
+description: NFT-Centric Layer 2 OP Chain powered by OP Stack Bedrock
 ---
 
 # ⚪ Zora
@@ -24,13 +24,13 @@ Eradicating financial or structural roadblocks ⛔, paving the way for boundless
 
 
 
+The firm has often drawn parallels between its services and well-known platforms like Shopify or WordPress, known for their user-friendly interfaces for creating e-commerce sites and blogs, respectively. However, Zora applies this ease and accessibility to the sphere of NFTs and the burgeoning Web 3.0 economy.&#x20;
+
 ## Usage
 
-### For Users
+### For Users, Why Use Zora?
 
 So as a user, you might be either a **collector** or an **artist** who is looking for tools to let them mint their collection and sell their art.
-
-#### Why use Zora?
 
 ### What are the benefits of using Zora?  <a href="#toc-2" id="toc-2"></a>
 
@@ -53,6 +53,8 @@ You know this pain point if you have experienced the NFT market on Ethereum Main
 </details>
 
 {% embed url="https://app.plusdocs.com/ahouraazarbin-wopm/snapshot/clnlxcb0l000tmn085zadjp35" %}
+
+Toggle for the steps:
 
 <details>
 
@@ -136,12 +138,15 @@ Check the whole subpage [here](https://docs.zora.co/docs/zora-api/intro).
 
 ### For Investors
 
-\
-In May 2022, Zora secured a $50 million investment in a funding round spearheaded by Haun Ventures, establishing a company valuation of $600 million. The firm has often drawn parallels between its services and those of well-known platforms like Shopify or WordPress, known for their user-friendly interfaces for creating e-commerce sites and blogs, respectively. However, Zora applies this ease and accessibility to the sphere of NFTs and the burgeoning Web 3.0 economy.&#x20;
+
+
+#### Funding received
+
+In May 2022, Zora secured a $50 million investment in a funding round spearheaded by Haun Ventures, establishing a company valuation of $600 million.&#x20;
 
 As of June, Horne revealed that Zora had attracted approximately 130,000 users. For the latest number of [Daily Active Addresses check our metrics page](https://www.growthepie.xyz/fundamentals/daily-active-addresses).&#x20;
 
-
+#### Specialized development tools
 
 Additionally, in previous discussions with Decrypt, Horne explained that Zora's revenue stream is derived from offering specialized development tools for sale. These tools assist other enterprises in tailoring Zora's no-cost protocol to suit their specific needs, a strategy reminiscent of the one employed by Linux distributor RedHat.
 
@@ -181,13 +186,19 @@ While NFTs are in focus, there haven't been changes made to the OP Stack modules
 
 To answer this question, we need to delve into the details and, first and foremost, understand the primary advantage of running your L2: control over the sequencer. For those who may not be familiar, the sequencer is a vital component of any Layer 2, responsible for gathering pending transactions and bundling them into L2 blocks. This block-building process also provides the benefit of collecting users’ gas fees.💸
 
+
+
 **But what is the advantage?**
 
 Jacob, one of the co-founders of Zora, elaborated on a podcast that having control over the sequencer provides platform-level superpowers. These superpowers can, for instance, be utilized to abstract gas fees even further for users and enable features like 0 gas fee mints.
 
+
+
 **Role of the Superchain🌉:**
 
 As a side note, while there are no reasonable solutions for fully decentralized sequencers developed yet, there's no need to worry excessively about it. **Sequencers are unable to manipulate or sign transactions to steal funds from users**.
+
+
 
 The Superchain’s bridge security model ensures both the integrity (safety) and continuous operation (liveness) of chains. While the proof system vouches for the chain's validity, users can directly submit transactions to L1, ensuring uninterrupted service. So, if an OP Chain sequencer acts up, users can easily switch to another reliable OP Chain.
 

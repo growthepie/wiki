@@ -12,7 +12,7 @@ description: Public Good Network supported by Gitcoin - Powered by OP Stack Bedr
 
 > **Anything that is both non-excludable and non-rivalrous, that is, people can’t be barred access, and one person’s use doesn’t degrade another’s, the values of which are shared by the local public and is ultimately aimed at positive externalities that strive for the longer-term betterment of the whole world.**
 
-This is a high level description of what Toby Shorin, Laura Lotti, and Sam Hart shared about this topic in their post – Positive Sum Worlds.
+This is a high-level description of what Toby Shorin, Laura Lotti, and Sam Hart shared about this topic in their post – Positive Sum Worlds.
 
 {% embed url="https://otherinter.net/research/positive-sum-worlds/" %}
 Authors Laura Lotti, Toby Shorin, Sam Hart Published July 02 2021
@@ -67,7 +67,7 @@ The core purpose of PGN is to serve as a digital convergence zone for individual
 
 ## Usage
 
-### For users
+### For users, why use PGN?
 
 **Simply by using the network, you are supporting public goods and public goods projects.**
 
@@ -151,6 +151,8 @@ Deploying contracts + Available development stacks
 
 #### Benefits
 
+Toggle for more info:
+
 <details>
 
 <summary>Transparency</summary>
@@ -178,6 +180,8 @@ Notable names such as PublicNouns, clr\_fund, giveth, hypercerts, octantapp, end
 </details>
 
 #### Metrics
+
+Toggle for more info:
 
 You might want to look at some of our charts to help you make your financial decisions:
 
@@ -244,7 +248,7 @@ If you do not know exactly what that is check out our short summary of that :poi
 
 ### Sequencer Fees
 
-A significant portion of the net sequencer fees is designated for public goods initiatives. Following the initial six months post-launch, these fees will undergo evaluation and distribution, drawing on comprehensive data accumulated during that period. Specific governance details are currently under development, and organizations are welcome to become part of the Network Alliance.&#x20;
+Most of the net sequencer fees are designated for public goods initiatives. Following the initial six months post-launch of PGN, these fees will undergo evaluation and distribution, drawing on comprehensive data accumulated during that period. Specific governance details are currently under development, and organizations are welcome to become part of the Network Alliance.&#x20;
 
 This collective will play a crucial role in shaping governance structures and deciding on the allocation of sequencer fees.
 
@@ -266,8 +270,6 @@ Deploying contracts + Available development stacks
 Understanding PGN Gas Fees
 {% endembed %}
 
-For more in-depth reading on the topic of Superchain, we recommend this article.
-
 
 
 ***
@@ -280,15 +282,15 @@ For more in-depth reading on the topic of Superchain, we recommend this article.
 
 #### Airdrop?
 
-PGN is not planning an airdrop at this time, but will be exploring how best to govern PGN in early 2024.&#x20;
+PGN is not planning an airdrop at this time but will explore how best to govern PGN in early 2024.&#x20;
 
 #### Non-Token-Related Governance
 
-PGN is interested in finding non-token-related governance options, but is still exploring what’s possible.
+PGN is interested in finding non-token-related governance options but is still exploring what’s possible.
 
 #### Contract Secured Revenue (CSR) \[No date announced yet]
 
-In the future, PGN will enable CSR to support developers’ need for sustainable revenue sources as well.
+In the future, PGN will enable CSR to support developers’ need for sustainable revenue sources.
 
 > Contract Secured Revenue allows smart contract developers to claim a percentage of all transaction/gas fees paid by users when interacting with their smart contracts. This means that the more dApps that build on PGN and the more users that engage with those dApps, the more revenue that will be generated for both the developers deploying those dApps, and for Public Goods.
 
@@ -352,7 +354,7 @@ This Blog explores the intricate nature of public goods in the context of digita
 
 {% embed url="https://otherinter.net/research/positive-sum-worlds/" %}
 
-**More reading on Quadratic Funding and Libera Radicalism**
+**More reading on Quadratic Funding and Liberal Radicalism**
 
 {% embed url="https://www.zbw.eu/econis-archiv/handle/11159/379438" %}
 Vitalik, Hitze and Weyl's Publication where Quadratic Funding was introduced
