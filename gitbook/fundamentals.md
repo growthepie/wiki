@@ -6,7 +6,7 @@
 
 A transaction is an action that is triggered either by an EOA or smart contract and it is stored on-chain. Some examples of transactions are transfers (ETH, ERC20, ERC721), swaps, etc. Our goal with this metric is to analyze how many actions are executed. We exclude known system transactions.
 
-* **Ethereum:** All transactions that are stored on-chain.&#x20;
+* **Ethereum**: All transactions that are stored on-chain.&#x20;
 * **zkSync Era**: All transactions that are stored on-chain.&#x20;
 * **Arbitrum**: All transactions but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions)
 * **Optimism**: All transactions but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions)&#x20;
