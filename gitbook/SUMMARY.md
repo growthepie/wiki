@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Fundamentals](fundamentals.md)
+* [Blockspace](blockspace.md)
 * [API](api.md)
 
 ## General Knowledge
