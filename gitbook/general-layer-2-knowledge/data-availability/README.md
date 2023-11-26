@@ -1,6 +1,6 @@
 # 📜 Data Availability
 
-Polygon Mainnet's making moves to become a Validium, while Celo and Mantel are teaming up with @eigenlayer for their off-chain Data Availability. 🔄 These are just a couple of the unique paths chains are exploring.
+Polygon Mainnet's making moves to become a Validium, while Celo and Mantle are teaming up with @eigenlayer for their off-chain Data Availability. 🔄 These are just a couple of the unique paths chains are exploring.
 
 ## What is not Data Availability?
 
