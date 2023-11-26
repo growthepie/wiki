@@ -61,7 +61,7 @@ The core purpose of PGN is to serve as a digital convergence zone for individual
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -203,7 +203,7 @@ This is what the chain makes in profit onchain each day. It quantifies profitabi
 
 #### Public Goods Alliance
 
-<figure><img src="../.gitbook/assets/The PG Alliance.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/The PG Alliance.gif" alt=""><figcaption></figcaption></figure>
 
 The Public Goods Alliance will be the governing and organizing body behind PGN. Anyone interested in building on PGN, receiving funding for public goods projects, or contributing to improving PGN is invited to participate.
 
@@ -219,7 +219,7 @@ You can reach out to PGN on Telegram via the “Alliance Discussion” channel. 
 
 Check out our Page about OP Stack for a short summary of OP Stack :point\_down:
 
-[op-stack.md](../general-knowledge/op-stack.md "mention")
+[op-stack.md](../op-stack.md "mention")
 
 
 
@@ -227,7 +227,7 @@ Public Goods Network also plans to integrate with Optimism Superchains.
 
 If you do not know exactly what that is check out our short summary of that :point\_down:
 
-[superchain.md](../general-knowledge/superchain.md "mention")
+[superchain.md](../superchain.md "mention")
 
 
 

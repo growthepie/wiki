@@ -166,7 +166,7 @@ Under the hood, Zora Network is built on the OP Stack (Bedrock release), ensurin
 
 Check out our Page about OP Stack for a short summary of OP Stack :point\_down:
 
-[op-stack.md](../general-knowledge/op-stack.md "mention")
+[op-stack.md](../op-stack.md "mention")
 
 
 
@@ -174,7 +174,7 @@ Zora Network also plans to integrate with Optimism Superchains.
 
 If you do not know exactly what that is check out our short summary of that :point\_down:
 
-[superchain.md](../general-knowledge/superchain.md "mention")
+[superchain.md](../superchain.md "mention")
 
 
 

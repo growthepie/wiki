@@ -24,7 +24,7 @@ It is devoted to paving the path for other builders and companies to bring thems
 
 #### Transaction Costs
 
-<figure><img src="../.gitbook/assets/Untitled-2.png" alt=""><figcaption><p>Transaction Costs of Base and other Layer 2s</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled-2.png" alt=""><figcaption><p>Transaction Costs of Base and other Layer 2s</p></figcaption></figure>
 
 As of now Base is the cheapest top L2 to use. This might change of course, have a look at our [Transaction Costs metric](https://www.growthepie.xyz/fundamentals/transaction-costs).
 
