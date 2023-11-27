@@ -17,9 +17,9 @@
 * [📜 Data Availability](general-layer-2-knowledge/data-availability/README.md)
   * [⚪ Light/client and full nodes](general-layer-2-knowledge/data-availability/light-client-and-full-nodes.md)
   * [❌ Fault Proofs](general-layer-2-knowledge/data-availability/fault-proofs.md)
-  * [🏄♂ Onchain Data Avalablity](general-layer-2-knowledge/data-availability/onchain-data-avalablity/README.md)
-    * [📄 EIP 4844](general-layer-2-knowledge/data-availability/onchain-data-avalablity/eip-4844.md)
-    * [🧫 Data Availability Sampling](general-layer-2-knowledge/data-availability/onchain-data-avalablity/data-availability-sampling.md)
+  * [🏄♂ Onchain Data Availablity](general-layer-2-knowledge/data-availability/onchain-data-availablity/README.md)
+    * [📄 EIP-4844](general-layer-2-knowledge/data-availability/onchain-data-availablity/eip-4844.md)
+    * [🧫 Data Availability Sampling](general-layer-2-knowledge/data-availability/onchain-data-availablity/data-availability-sampling.md)
   * [🕊 Offchain Data Availability](general-layer-2-knowledge/data-availability/offchain-data-availability/README.md)
     * [⚙ General Purpose DACs Mechanism](general-layer-2-knowledge/data-availability/offchain-data-availability/general-purpose-dacs-mechanism.md)
 

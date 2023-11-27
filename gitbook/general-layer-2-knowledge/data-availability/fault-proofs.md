@@ -10,4 +10,4 @@ Now, our light nodes can use these fraud proofs to ditch any bad block headers. 
 
 
 
-But here's the catch 🎣: Full nodes need to see the full transaction details. If a sneaky attacker with a bad block header, doesn't share the transaction info, full nodes are in a bind. They might sense something's fishy 🐟, but without the full data, they can't prove it. It's like knowing there's a thief but not having the security footage to prove it!
+But here's the catch 🎣: Full nodes need to see the full transaction details. If a sneaky attacker with a bad block header doesn't share the transaction info, full nodes are in a bind. They might sense something's fishy 🐟, but without the full data, they can't prove it. It's like knowing there's a thief but not having the security footage to prove it!

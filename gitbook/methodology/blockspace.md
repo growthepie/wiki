@@ -1,9 +1,6 @@
 # Blockspace
 
-The blockspace analysis section works by initially examining each L2 separately and summing up the fees paid for each unique "to_address". 
-Next, our contract mapping integrates this data, assigning the addresses to specific subcategories based on their activity. 
-For example, executing a token swap on Uniswap V3 involves interacting with the V3 contract, which is automatically recognized by its "to_address" and then mapped to the "Decentralized Exchange" subcategory.
-
+The blockspace analysis section works by initially examining each L2 separately and summing up the fees paid for each unique "to\_address". Next, our contract mapping integrates this data, assigning the addresses to specific subcategories based on their activity. For example, executing a token swap on Uniswap V3 involves interacting with the V3 contract, which is automatically recognized by its "to\_address" and then mapped to the "Decentralized Exchange" subcategory.
 
 ## Categories
 
@@ -41,7 +38,7 @@ For example, executing a token swap on Uniswap V3 involves interacting with the 
 ### Utility
 
 * **Oracle**: Contracts that feed external, real-world data onto the blockchain.
-* **Developer Tool**: Contracts taht assist developers in creating, testing and deploying smart contracts.
+* **Developer Tool**: Contracts that assist developers in creating, testing and deploying smart contracts.
 * **Middleware**: Contracts that facilitate communication and interoperability between different blockchain protocols.
 * **Identity**: Contracts that provide digital identification and verification services on the blockchain.
 * **ERC4337**: Contracts that adhere to the ERC4337 standard for account abstraction, including all entry point contracts.
@@ -57,7 +54,6 @@ For example, executing a token swap on Uniswap V3 involves interacting with the 
 ### Unlabeled
 
 This category encompasses all contracts that have not been assigned to a sub-category. We encourage you to utilize our front-end labeling mechanism to suggest appropriate labels for these unlabeled contracts.
-
 
 ## Chain Overview
 
