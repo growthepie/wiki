@@ -1,2 +1,0 @@
-# 🔍 Zero Knowledge Rollups
-

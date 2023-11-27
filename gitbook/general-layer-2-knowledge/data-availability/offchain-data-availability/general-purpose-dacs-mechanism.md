@@ -2,11 +2,11 @@
 
 #### There are usually three parties in the process:
 
-1- The L2 Chain that receives and records transactions
+1 - The L2 chain that receives and records transactions
 
-2- The offchain DA provider
+2 - The offchain DA provider
 
-3- Ethereum Mainnet
+3 - Ethereum Mainnet
 
 <figure><img src="../../../.gitbook/assets/da.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,11 +21,11 @@ In the meantime, the proofs of transactions from the L2 Chain are also published
 #### Pros :thumbsup:
 
 * These permissionless DACs come with extra-economic guarantees on data availability because the committee can be slashed if they misbehave.
-* they are more credibly neutral as a DA layer than a DAC, because it exists as an independent chain in its own right as a general-purpose DA layer, rather than a DA layer for a specific Ethereum L2.
+* They are more credibly neutral as a DA layer than a DAC, because it exists as an independent chain in its own right as a general-purpose DA layer, rather than a DA layer for a specific Ethereum L2.
 
 #### Cons :thumbsdown:
 
-* They are cost-effective and less costly than pure Rollups, but the more decentralized they get and the more signatures they need per attestation, the costlier they get.
+* They are cost-effective and less costly than pure rollups, but the more decentralized they get and the more signatures they need per attestation, the costlier they get.
 
 #### Examples&#x20;
 

@@ -14,7 +14,7 @@ Focusing on the trade-offs between security, scalability, and cost, this spectru
 
 #### **Intermediate Options**:
 
-* Between [rollups](../developer-content/which-layer-2-approach-is-for-you/rollups/ "mention") and Validium: A Validium where on-chain payment can force data provision or result in a data provider's lost deposit.
+* Between [rollups.md](../developer-content/which-layer-2-approach-is-for-you/rollups.md "mention") and Validium: A Validium where onchain payment can force data provision or result in a data provider's lost deposit.
 * Between [plasma.md](../developer-content/which-layer-2-approach-is-for-you/plasma.md "mention") and [validiums.md](../developer-content/which-layer-2-approach-is-for-you/validiums.md "mention"): A system offering Plasma-level security for simpler applications and Validium-level for more complex ones.
 
 #### **Factors Influencing Choice**:

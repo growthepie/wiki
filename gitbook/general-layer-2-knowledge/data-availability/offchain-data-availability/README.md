@@ -14,7 +14,7 @@ There are different kinds of Offchain Data Availability approaches:
 
 ### Pure Validium&#x20;
 
-Pure Validums take advantage of zk proofs to prove that transactions are valid without showing the complete data. these proofs are like the signature of someone who validated the data. The original transaction data is stored offchain.
+Pure Validums take advantage of zk proofs to prove that transactions are valid without showing the complete data. These proofs are like the signature of someone who validated the data. The original transaction data is stored offchain.
 
 #### Pros :thumbsup:
 
@@ -22,7 +22,7 @@ Pure Validums take advantage of zk proofs to prove that transactions are valid w
 
 #### Cons :thumbsdown:
 
-* If the offchain data provider is offline or misbehaves, there is no data Availability so no DA guarantee and low-security
+* If the offchain data provider is offline or misbehaves, there is no Data Availability so no DA guarantee and low-security
 
 {% hint style="info" %}
 There are currently no respectable L2 chains that only use pure Validiums, they generally also have something else on top which we will discuss as our next solution.
@@ -30,7 +30,7 @@ There are currently no respectable L2 chains that only use pure Validiums, they 
 
 ### Data Availability Committees (DACs)
 
-These committees hold a limited number of trusted nodes or members who keep copies of data offchain and can an attestation that the data is there and valid if problems arise. These attestations are like signatures in the form of a transaction.
+These committees hold a limited number of trusted nodes or members who keep copies of data offchain and can attest that the data is there and valid if problems arise. These attestations are like signatures in the form of a transaction.
 
 #### Pros :thumbsup:
 
@@ -42,7 +42,7 @@ End users need to trust a potentially non-neutral, small number of 7-10 members,
 
 #### Examples
 
-Immutable X, Arbitrum Nova, StarkEX, and zkPorter all leverage DACs
+Immutable X, Arbitrum Nova, StarkEX, and zkPorter all leverage DACs.
 
 
 

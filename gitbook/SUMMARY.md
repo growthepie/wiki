@@ -28,11 +28,8 @@
 * [⚖ Which Layer 2 approach is for you?](developer-content/which-layer-2-approach-is-for-you/README.md)
   * [↔ State Channels](developer-content/which-layer-2-approach-is-for-you/state-channels.md)
   * [⚡ Plasma](developer-content/which-layer-2-approach-is-for-you/plasma.md)
-  * [🌀 Rollups](developer-content/which-layer-2-approach-is-for-you/rollups/README.md)
-    * [🤞 Optimistic Rollups](developer-content/which-layer-2-approach-is-for-you/rollups/optimistic-rollups.md)
-    * [🔍 Zero Knowledge Rollups](developer-content/which-layer-2-approach-is-for-you/rollups/zero-knowledge-rollups.md)
+  * [🌀 Rollups](developer-content/which-layer-2-approach-is-for-you/rollups.md)
   * [🔐 Validiums](developer-content/which-layer-2-approach-is-for-you/validiums.md)
-  * [💭 Volition?](developer-content/which-layer-2-approach-is-for-you/volition.md)
 
 ***
 

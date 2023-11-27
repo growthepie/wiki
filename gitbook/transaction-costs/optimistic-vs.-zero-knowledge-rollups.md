@@ -6,7 +6,7 @@
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Transaction Costs as of 26th November 2023</p></figcaption></figure>
 
-### **Optimistic Rollups ( e.g. Arbitrum, Optimism)**:
+### **Optimistic Rollups (e.g. Arbitrum, Optimism)**:
 
 * **Mechanism**: These rely on a system of fraud proofs. The rollup contract maintains a comprehensive history of state roots and the hash of each transaction batch.
 * **Fraud Proofs**: If someone detects an incorrect post-state root in a batch, they can submit a fraud-proof to the blockchain. This proof demonstrates that the batch was computed incorrectly.
@@ -19,7 +19,7 @@
 
 
 
-### **ZK Rollups (e.g. zkSync Era, Ploygon zkEVM)**:
+### **ZK-Rollups (e.g. zkSync Era, Ploygon zkEVM)**:
 
 * **Mechanism**: These use validity proofs, specifically ZK-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge), to ensure the correctness of transactions.
 * **Cryptographic Proofs**: Each batch includes a ZK-SNARK, which cryptographically proves that the post-state root is the correct outcome of executing the batch.
@@ -45,7 +45,7 @@
 * Optimistic Rollups are more straightforward and closer to widespread adoption.
 * Suitable for applications where immediate finality is less critical.
 * Preferable for scenarios that require a simpler technological approach.
-* Entail higher on-chain gas costs.
+* Entail higher onchain gas costs.
 * Feature a longer withdrawal period.
 
 
@@ -57,10 +57,6 @@
 * Complexity and higher off-chain computation costs are notable trade-offs.
 * More challenging to generalize for broad applications.
 * Rapidly evolving technology.
-
-{% hint style="info" %}
-For more content and resources about these Rollups go to [optimistic-rollups.md](../developer-content/which-layer-2-approach-is-for-you/rollups/optimistic-rollups.md "mention") and [zero-knowledge-rollups.md](../developer-content/which-layer-2-approach-is-for-you/rollups/zero-knowledge-rollups.md "mention")
-{% endhint %}
 
 ## Sources and Extra Material
 

@@ -4,7 +4,7 @@
 Validiums can not be considered as Layer 2 per se. When we talk about Validiums we are talking from the Data Avalability point of view.
 {% endhint %}
 
-It is an approach that different Layer 2s can take towards their Data Availability concerns to read more about this go to our more detailed breakdown in General Layer 2 Knowledge [data-availability](../../general-layer-2-knowledge/data-availability/ "mention")
+It is an approach that different Layer 2s can take towards their Data Availability concerns. To read more about this, go to our more detailed breakdown in General Layer 2 Knowledge [data-availability](../../general-layer-2-knowledge/data-availability/ "mention")
 
 
 
@@ -33,7 +33,7 @@ In the meantime, the proofs of transactions from the L2 Chain are also published
 **Upsides:**
 
 * These permissionless DACs come with extra-economic guarantees on data availability because the committee can be slashed if they misbehave.
-* they are more credibly neutral as a DA layer than a DAC, because it exists as an independent chain in its own right as a general-purpose DA layer, rather than a DA layer for a specific Ethereum L2.
+* They are more credibly neutral as a DA layer than a DAC, because it exists as an independent chain in its own right as a general-purpose DA layer, rather than a DA layer for a specific Ethereum L2.
 
 **Downsides:**
 

@@ -34,7 +34,7 @@
 
 **Downsides:**
 
-1. **Regular On-Chain Data Publication** 📊: Plasma necessitates the publication of a hash on the blockchain at regular intervals, unlike state channels which require no on-chain data during normal operations.
+1. **Regular Onchain Data Publication** 📊: Plasma necessitates the publication of a hash on the blockchain at regular intervals, unlike state channels which require no onchain data during normal operations.
 2. **Delayed Withdrawals** ⏳ : The challenge period required to prevent fraudulent activity can lead to delays in withdrawing assets from the Plasma chain.
 3. **Dependence on Asset Ownership Logic** 🔑: Plasma's security relies on the premise that each asset has a logical owner. If the owner is indifferent or the asset lacks clear ownership (like in Uniswap), Plasma may not function effectively.
 4. **Application-Specific Complexity** 🧩: Implementing Plasma requires a significant amount of application-specific reasoning, making it challenging to create a system that fully simulates the Ethereum environment or the EVM.
