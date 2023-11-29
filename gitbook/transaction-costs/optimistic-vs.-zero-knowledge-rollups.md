@@ -2,8 +2,6 @@
 
 ## A Quick Overview
 
-
-
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Transaction Costs as of 26th November 2023</p></figcaption></figure>
 
 ### **Optimistic Rollups (e.g. Arbitrum, Optimism)**:
@@ -38,24 +36,49 @@
 >
 > Vitalik Buterin
 
-#### Summary
+## Scenario 🌟
 
-**Optimistic Rollups**&#x20;
+Imagine you're a developer working on two different blockchain projects: a decentralized marketplace (Project A) and a high-frequency trading platform (Project B). You're considering using Layer 2 solutions to optimize transaction efficiency and cost, and you're torn between Optimistic Rollups and ZK Rollups. Understanding the differences in their costs and functionalities is crucial for your decision.
 
-* Optimistic Rollups are more straightforward and closer to widespread adoption.
+### **Project A: Decentralized Marketplace - Optimistic Rollups**
+
+* **Nature of Project**: This marketplace involves various transactions like listing items, bidding, and final sales. Immediate finality of transactions is not critical, as there's usually a waiting period for bids and sales to conclude.
+* **Why Optimistic Rollups?**:
+  * **Simplicity**: Optimistic Rollups are straightforward and align with the marketplace's less complex transaction structure.
+  * **Adoption Readiness**: They are closer to widespread adoption, offering a more stable and tested environment.
+  * **Cost Consideration**: While they entail higher on-chain gas costs, the frequency of transactions in a marketplace (not too high) makes this a manageable expense.
+  * **Withdrawal Period**: The longer withdrawal period is not a significant concern, as marketplace transactions don't demand immediate finality.
+
+### **Project B: High-Frequency Trading Platform - ZK Rollups**
+
+* **Nature of Project**: This platform requires rapid transaction processing due to the high volume and fast pace of trades.
+* **Why ZK Rollups?**:
+  * **Immediate Finality**: ZK Rollups offer instant transaction finality, crucial for the dynamic nature of trading.
+  * **Lower Gas Costs**: They provide lower per-transaction gas costs, a significant advantage given the high volume of trades.
+  * **Complexity Trade-off**: The complexity and higher off-chain computation costs are acceptable trade-offs for the efficiency gains in a trading environment.
+  * **Generalization Challenge**: While more challenging to generalize, the specific nature of high-frequency trading fits well with the capabilities of ZK Rollups.
+
+## **Key Differences**
+
+* **Cost Efficiency**: For Project A (marketplace), the higher on-chain gas costs of Optimistic Rollups are offset by the lower frequency of transactions. In contrast, Project B (trading platform) benefits from the lower per-transaction costs of ZK Rollups due to its high transaction volume.
+* **Transaction Finality**: The marketplace can afford the longer finality period of Optimistic Rollups, whereas the trading platform benefits from the immediate finality provided by ZK Rollups.
+* **Technical Complexity**: Optimistic Rollups' simpler technology aligns with the marketplace's needs, while the trading platform can leverage the advanced technology of ZK Rollups despite its complexity.
+
+## Summary
+
+### Optimistic Rollups
+
+* More straightforward and closer to widespread adoption.&#x20;
 * Suitable for applications where immediate finality is less critical.
 * Preferable for scenarios that require a simpler technological approach.
-* Entail higher onchain gas costs.
-* Feature a longer withdrawal period.
+* Entail higher onchain gas costs. Feature a longer withdrawal period.
 
-
-
-**ZK Rollups**
+### ZK Rollups&#x20;
 
 * Offer immediate transaction finality.
-* Provide lower per-transaction gas costs, ideal for high-volume, fast-paced environments.
-* Complexity and higher off-chain computation costs are notable trade-offs.
-* More challenging to generalize for broad applications.
+* Provide lower per-transaction gas costs, ideal for high-volume, fast-paced environments.&#x20;
+* Complexity and higher off-chain computation costs are notable trade-offs.&#x20;
+* More challenging to generalize for broad applications.&#x20;
 * Rapidly evolving technology.
 
 ## Sources and Extra Material

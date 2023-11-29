@@ -29,15 +29,17 @@ But if the same glitch locks you out of your account, it's a crisis 🚨.&#x20;
 
 This nuanced approach to security ensures that each aspect of the app receives the attention it deserves, balancing efficiency with safety.
 
+Vitalik summed it up efficiently using the following scale:
 
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-27 164557.png" alt=""><figcaption><p><a href="https://vitalik.ca/general/2023/10/31/l2types.html"><strong>Source</strong></a></p></figcaption></figure>
 
 ### What to expect?
 
 
 
-We will discuss each Layer 2 solution that exists with examples and ups and downs and guide you to more in-depth resources regarding each of them 📚.
+We will discuss each Layer 2 solution with examples and ups and downs and guide you to more in-depth resources regarding each of them 📚.
 
-We will have a special focus on transaction cost 💰, and the applications of each of these Layer 2 options, to help you with your decision-making 🤝.
+We will have a special focus on transaction cost 💰, and the applications of these Layer 2 options, to help you with your decision-making 🤝.
 
 
 

@@ -26,7 +26,10 @@
 
 ### **Ensuring Integrity of State Updates:**
 
-The key challenge is ensuring that the post-state roots in the batches are correct. If someone could submit a batch with any post-state root without consequences, they could, for instance, illegitimately redirect funds. To prevent this, the rollup uses one of two main solutions: Optimistic Rollups and Zero-Knowledge Rollups.
+The key challenge is ensuring that the post-state roots in the batches are correct. If someone could submit a batch with any post-state root without consequences, they could, for instance, illegitimately redirect funds. To prevent this, the rollup uses one of two main solutions:&#x20;
+
+1. Optimistic Rollups
+2. Zero-Knowledge Rollups
 
 
 
@@ -77,6 +80,8 @@ Toggle to see what these applications could be
 
 
 
+
+
 {% hint style="warning" %}
-If you are just interested in knowing which one would be your problem-solution fit for your project go straight to [transaction-costs](../../transaction-costs/ "mention") page to see their comparison and outlook.
+If you are just interested in knowing which one from Optimistic and Zero Knowledge Rollups would be your problem-solution fit for your project go straight to [transaction-costs](../../transaction-costs/ "mention") page to see their comparison and outlook.
 {% endhint %}
