@@ -22,7 +22,7 @@
     * [🧫 Data Availability Sampling](general-layer-2-knowledge/data-availability/onchain-data-availablity/data-availability-sampling.md)
   * [🕊 Offchain Data Availability](general-layer-2-knowledge/data-availability/offchain-data-availability/README.md)
     * [⚙ General Purpose DACs Mechanism](general-layer-2-knowledge/data-availability/offchain-data-availability/general-purpose-dacs-mechanism.md)
-    * [📚 Sources and Extra Materia](general-layer-2-knowledge/data-availability/offchain-data-availability/sources-and-extra-materia.md)
+    * [📚 Sources and Extra Material](general-layer-2-knowledge/data-availability/offchain-data-availability/sources-and-extra-material.md)
 
 ## Developer Content
 

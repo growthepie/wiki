@@ -1,4 +1,4 @@
-# 📚 Sources and Extra Materia
+# 📚 Sources and Extra Material
 
 {% embed url="https://ethereum.org/en/developers/docs/data-availability/" %}
 
