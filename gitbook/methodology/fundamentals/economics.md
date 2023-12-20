@@ -18,4 +18,4 @@ The gas fees paid by L2s to post transaction data & verification states onto Eth
 
 ### Onchain Profit
 
-Profit = Fees paid - Rent paid to L1.
+Profit = Fees paid by users - Rent paid to L1.
