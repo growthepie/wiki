@@ -7,9 +7,9 @@ The amount of (gas) fees that users paid in order to use the chain. We think tha
 * **Ethereum**: Gas usage \* gas price \* eth price of all transactions.
 * **zkSync Era**: Gas usage \* effective gas price \* eth price.
 * **Arbitrum**: Gas usage \* gas price \* eth price of all transactions but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions).
-* **Optimism**: Gas usage \* gas price \* eth price of all transactions but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions).
-* **Base**: Gas usage \* gas price \* eth price of all transactions but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions).
+* **OP chains (OP Mainnet, Base, Zora, PGN)**: L1 fee + gas usage \* gas price \* eth price of all transactions but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions).
 * **Polygon zkEVM**: Gas usage \* gas price \* eth price of all transactions.
+* **Linea:** Gas usage \* gas price \* eth price of all transactions.
 * **ImmutableX**: Users only pay fees to the protocol when they buy or sell NFTs. Usually, 1% of buy and sell orders go to the protocol. The sum of these protocol fees is our fees paid metric (marketplace fees not included because they don't go to the protocol).
 
 ### Rent Paid to L1
