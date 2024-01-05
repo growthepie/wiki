@@ -28,7 +28,7 @@ RPC Nodes and their Latency for different Layer2s
 {% endembed %}
 
 {% embed url="https://optimistic.grafana.net/public-dashboards/c84a5a9924fe4e14b270a42a8651ceb8?orgId=1&refresh=5m" %}
-base fee for L2 gas fee estimates for OP Mainnet
+Base fee for L2 gas fee estimates for OP Mainnet
 {% endembed %}
 
 {% embed url="https://sdk.optimism.io/modules.html#asL2Provider" %}
