@@ -8,14 +8,14 @@ Focusing on the trade-offs between security, scalability, and cost, this spectru
 
 
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-26 181313 (2).png" alt=""><figcaption><p>Security, Scalability, Cost Comparison, <a href="https://vitalik.ca/general/2023/10/31/l2types.html"><strong>Source</strong></a>: Vitalik Buterin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 181313 (2).png" alt=""><figcaption><p>Security, Scalability, Cost Comparison, <a href="https://vitalik.ca/general/2023/10/31/l2types.html"><strong>Source</strong></a>: Vitalik Buterin</p></figcaption></figure>
 
 ### Intermediate Options and Factors Influencing Choice
 
 #### **Intermediate Options**:
 
-* Between [rollups.md](../developer-content/which-layer-2-approach-is-for-you/rollups.md "mention") and Validium: A Validium where onchain payment can force data provision or result in a data provider's lost deposit.
-* Between [plasma.md](../developer-content/which-layer-2-approach-is-for-you/plasma.md "mention") and [validiums.md](../developer-content/which-layer-2-approach-is-for-you/validiums.md "mention"): A system offering Plasma-level security for simpler applications and Validium-level for more complex ones.
+* Between [rollups.md](../which-layer-2-approach-is-for-you/rollups.md "mention") and Validium: A Validium where onchain payment can force data provision or result in a data provider's lost deposit.
+* Between [plasma.md](../which-layer-2-approach-is-for-you/plasma.md "mention") and [validiums.md](../which-layer-2-approach-is-for-you/validiums.md "mention"): A system offering Plasma-level security for simpler applications and Validium-level for more complex ones.
 
 #### **Factors Influencing Choice**:
 

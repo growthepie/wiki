@@ -31,12 +31,13 @@
   * [⚡ Plasma](developer-content/which-layer-2-approach-is-for-you/plasma.md)
   * [🌀 Rollups](developer-content/which-layer-2-approach-is-for-you/rollups.md)
   * [🔐 Validiums](developer-content/which-layer-2-approach-is-for-you/validiums.md)
-
-***
-
-* [⛽ Transaction Costs](transaction-costs/README.md)
-  * [⚔ Optimistic vs. Zero Knowledge Rollups](transaction-costs/optimistic-vs.-zero-knowledge-rollups.md)
-  * [🤝 Validium Hybrids](transaction-costs/validium-hybrids.md)
+* [⛽ Transaction Costs](developer-content/transaction-costs/README.md)
+  * [⚔ Optimistic vs. Zero Knowledge Rollups](developer-content/transaction-costs/optimistic-vs.-zero-knowledge-rollups.md)
+  * [🤝 Validium Hybrids](developer-content/transaction-costs/validium-hybrids.md)
+  * [🖼 What EIP 4844 means for Layer 2s](developer-content/transaction-costs/what-eip-4844-means-for-layer-2s.md)
+* [⭐ Rollup Performance](developer-content/rollup-performance/README.md)
+  * [⌛ General  Stats](developer-content/rollup-performance/general-stats.md)
+  * [📨 Messaging Latency and Cost](developer-content/rollup-performance/messaging-latency-and-cost.md)
 
 ## OP Chains
 

@@ -2,7 +2,7 @@
 
 ## A Quick Overview
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Transaction Costs as of 26th November 2023</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Transaction Costs as of 26th November 2023</p></figcaption></figure>
 
 ### **Optimistic Rollups (e.g. Arbitrum, Optimism)**:
 
@@ -30,7 +30,7 @@
 
 ## Comparison and Outlook
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-26 165100.png" alt=""><figcaption><p>Rollups Comparison, <a href="https://vitalik.ca/general/2021/01/05/rollup.html">source</a>: Vitalik Buterin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-26 165100.png" alt=""><figcaption><p>Rollups Comparison, <a href="https://vitalik.ca/general/2021/01/05/rollup.html">source</a>: Vitalik Buterin</p></figcaption></figure>
 
 > "In general, my own view is that in the short term, optimistic rollups are likely to win out for general-purpose EVM computation and ZK rollups are likely to win out for simple payments, exchange and other application-specific use cases, but in the medium to long term ZK rollups will win out in all use cases as ZK-SNARK technology improves."
 >

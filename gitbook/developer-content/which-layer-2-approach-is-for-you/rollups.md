@@ -80,8 +80,12 @@ Toggle to see what these applications could be
 
 
 
+## Sources and Extra Material
 
+{% embed url="https://ethereum.org/en/developers/docs/scaling/zk-rollups/" %}
+
+{% embed url="https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/" %}
 
 {% hint style="warning" %}
-If you are just interested in knowing which one from Optimistic and Zero Knowledge Rollups would be your problem-solution fit for your project go straight to [transaction-costs](../../transaction-costs/ "mention") page to see their comparison and outlook.
+If you are just interested in knowing which one from Optimistic and Zero Knowledge Rollups would be your problem-solution fit for your project go straight to [transaction-costs](../transaction-costs/ "mention") page to see their comparison and outlook.
 {% endhint %}
