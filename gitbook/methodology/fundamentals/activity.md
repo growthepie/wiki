@@ -11,6 +11,7 @@ A transaction is an action that is triggered either by an EOA (Externally Owned 
 * **Base**: All transactions but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions).
 * **Polygon zkEVM**: All transactions that are stored on-chain.
 * **ImmutableX**: All actions that have a `transaction_id` assigned (deposits, withdrawals, mints, trades, transfers).
+* **Mantle**: All transactions but we exclude transactions that have an L2 gas price of 0 (which can be internal system transactions).
 
 ### Daily Active Addresses
 
@@ -23,3 +24,4 @@ The number of daily active addresses is a simple heuristic for the number of act
 * **Base**: All unique addresses that sent a transaction but we exclude transactions that have an L2 gas price of 0 (which are internal system transactions).
 * **Polygon zkEVM**: All unique addresses that sent a transaction.
 * **ImmutableX**: All unique addresses that actively interacted on ImmutableX (not mints, because they are not triggered by users themselves). We only consider unique sender addresses for deposits, withdrawals, orders, and transfers.
+* **Mantle**: All unique addresses that sent a transaction but we exclude transactions that have an L2 gas price of 0 (which can be internal system transactions).
