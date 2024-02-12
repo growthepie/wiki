@@ -11,7 +11,6 @@ The amount of (gas) fees that users paid in order to use the chain. We think tha
 * **Polygon zkEVM**: Gas usage \* gas price \* eth price of all transactions.
 * **Linea:** Gas usage \* gas price \* eth price of all transactions.
 * **ImmutableX**: Users only pay fees to the protocol when they buy or sell NFTs. Usually, 1% of buy and sell orders go to the protocol. The sum of these protocol fees is our fees paid metric (marketplace fees not included because they don't go to the protocol).
-* **Mantle**: Gas usage \* gas price \* MNT price of all transactions.
 
 ### Rent Paid to L1
 
