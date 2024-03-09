@@ -11,7 +11,7 @@ description: >-
 
 To grasp the best understanding of Performance metrics of Rollups we suggest that you read the following sections in our wiki:
 
-[data-availability](../../general-layer-2-knowledge/data-availability/ "mention");[onchain-data-availablity](../../general-layer-2-knowledge/data-availability/onchain-data-availablity/ "mention")
+[data-availability](../../general-layer-2-knowledge/data-availability/ "mention");[onchain-data-availability](../../general-layer-2-knowledge/data-availability/onchain-data-availability/ "mention")
 
 [transaction-costs](../transaction-costs/ "mention"); [what-eip-4844-means-for-layer-2s.md](../transaction-costs/what-eip-4844-means-for-layer-2s.md "mention")
 
