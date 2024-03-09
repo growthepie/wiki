@@ -1,7 +1,7 @@
 # 🔐 Validiums
 
 {% hint style="info" %}
-Validiums can not be considered as Layer 2 per se. When we talk about Validiums we are talking from the Data Avalability point of view.
+Validiums can not be considered as Layer 2 per se. When we talk about Validiums we are talking from the Data Availability point of view.
 {% endhint %}
 
 It is an approach that different Layer 2s can take towards their Data Availability concerns. To read more about this, go to our more detailed breakdown in General Layer 2 Knowledge [data-availability](../../general-layer-2-knowledge/data-availability/ "mention")
@@ -61,6 +61,6 @@ Celestia, Polygon Avail, and EigenDA
 * Scale-demanding applications where security isn't an issue
 * Non-financial apps
 * Gaming
-* Centerally-governed Ecosystems
+* Centrally-governed Ecosystems
 
 ##
