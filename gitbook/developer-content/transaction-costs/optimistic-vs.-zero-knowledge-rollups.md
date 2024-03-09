@@ -17,7 +17,7 @@
 
 
 
-### **ZK-Rollups (e.g. zkSync Era, Ploygon zkEVM)**:
+### **ZK-Rollups (e.g. zkSync Era, Polygon zkEVM)**:
 
 * **Mechanism**: These use validity proofs, specifically ZK-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge), to ensure the correctness of transactions.
 * **Cryptographic Proofs**: Each batch includes a ZK-SNARK, which cryptographically proves that the post-state root is the correct outcome of executing the batch.
