@@ -1,4 +1,4 @@
-# 🏄♂ Onchain Data Availablity
+# 🏄♂ Onchain Data Availability
 
 ## Onchain :man\_surfing::chains:
 

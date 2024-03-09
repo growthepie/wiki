@@ -1,6 +1,6 @@
 # 🖼 What EIP 4844 means for Layer 2s
 
-Just like discussed in the context of [onchain-data-availablity](../../general-layer-2-knowledge/data-availability/onchain-data-availablity/ "mention") options, EIP 4844 introduces a new Ethereum transaction format the 'BLOB\_TX\_TYPE', designed specifically for short-term data storage in a more affordable manner.
+Just like discussed in the context of [onchain-data-availability](../../general-layer-2-knowledge/data-availability/onchain-data-availability/ "mention") options, EIP 4844 introduces a new Ethereum transaction format the 'BLOB\_TX\_TYPE', designed specifically for short-term data storage in a more affordable manner.
 
 ## **What are Blobs?**
 

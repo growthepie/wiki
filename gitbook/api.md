@@ -24,7 +24,7 @@ This endpoint returns all labeled contracts for all our covered chains. It inclu
 v1/contracts.json
 ```
 
-#### Sample Reponse
+#### Sample Response
 
 ```json
 [
