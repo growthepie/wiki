@@ -36,7 +36,7 @@ Check 👇 for more dapps and platforms on base
 
 [Base | Ecosystem](https://base.org/ecosystem?tag=all)
 
-You might also want to follow [@Base\_Explorer](https://x.com/Base\_Explorer/) for updates, facts and info in the ecpsystem and
+You might also want to follow [@Base\_Explorer](https://x.com/Base\_Explorer/) for updates, facts and info in the ecosystem and
 
 {% embed url="https://x.com/Base_Explorer/status/1690679583467778048?s=20" %}
 
@@ -96,7 +96,7 @@ To go head-on into the documentation and the boot camp to build your dapp, here 
 
 You might want to look at some of our charts to help you make your financial decisions
 
-PS; As of now there is no token for Base, but there is already some other ways to invest in the platforms built on Base
+PS; As of now there is no token for Base, but there are already some other ways to invest in the platforms built on Base
 
 #### Onchain Profit
 
