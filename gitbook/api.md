@@ -50,6 +50,10 @@ v1/contracts.json
 
 This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5 a.m. UTC.
 
+`v1/fundamentals_full.json`
+
+This endpoint will grow in size and will return >10MB of data. We also created a filtered endpoint (only last 365 days and no eth values) which can be used in Google Sheets and other applications that limit the input data to 10MB.
+
 `v1/fundamentals.json`
 
 #### Sample Response
@@ -86,7 +90,7 @@ You can quickly load data on all Layer 2s into a Pandas dataframe using the foll
 import requests
 import pandas as pd
 
-url = 'https://api.growthepie.xyz/v1/fundamentals.json'
+url = 'https://api.growthepie.xyz/v1/fundamentals_full.json'
 response = requests.get(url)
 df = pd.DataFrame(response.json())
 ```
