@@ -103,6 +103,18 @@ df[(df['metric_key'] == 'txcount') & (df['origin_key'] == 'arbitrum')].sort_valu
 
 <figure><img src=".gitbook/assets/Screenshot 2023-09-29 091713.png" alt=""><figcaption></figcaption></figure>
 
+### Example Excel
+
+Excel is still the most widely used tool for data analytics. Using our API, you can build this neat dashboard in less than 2 minutes:
+
+<figure><img src=".gitbook/assets/Recording 2024-04-05 at 12.26.31.gif" alt=""><figcaption><p>Excel dashboard example</p></figcaption></figure>
+
+Here is a quick guide on how to pull data from our API and visualize it
+
+{% embed url="https://twitter.com/web3_data/status/1776194203602571663" %}
+Guide for Excel usage
+{% endembed %}
+
 ### Example PowerBI
 
 PowerBI is a powerful BI and data visualization tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
