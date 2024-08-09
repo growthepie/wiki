@@ -1,5 +1,5 @@
 ---
-description: Public Good Network supported by Gitcoin - Powered by OP Stack Bedrock
+description: Chain Shut down!
 ---
 
 # 🟢 Public Goods Network
@@ -41,7 +41,7 @@ Vitalik, Hitze and Weyl's Publication where Quadratic Funding was introduced
 
 {% embed url="https://www.wtfisqf.com/?grant=&grant=&grant=&grant=&match=1000" %}
 
-### Sustainable Funding for Public Goods <a href="#840a" id="840a"></a>
+### Sustainable Funding for Public Goods <a href="#id-840a" id="id-840a"></a>
 
 One of the most remarkable features of the Public Goods Network is its commitment to generating sustainable funding for public goods initiatives. A substantial portion of transaction fees on PGN is earmarked to support various public goods projects. By running decentralized applications (dApps) on the PGN network, developers automatically contribute to funding these essential public goods, fostering an ecosystem of collective support and collaboration.
 
@@ -51,19 +51,11 @@ One of the most remarkable features of the Public Goods Network is its commitmen
 
 PGN operates as a roll-up, managed collaboratively by [Gitcoin](https://www.gitcoin.co/) and [Conduit](https://conduit.xyz/), an independent infrastructure facilitator. It presents a unique approach to the distribution of sequencer fees. Rather than functioning for Gitcoin's benefit, it's geared towards those committed to creating enduring, credible, and substantial funding avenues for public initiatives. Read more about the sequencer fees of PGN $$->$$ [#technology](public-goods-network.md#technology "mention")
 
-
-
 ### Purpose
 
-The core purpose of PGN is to serve as a digital convergence zone for individuals and entities dedicated to bolstering public goods.&#x20;
-
-
-
-
+The core purpose of PGN is to serve as a digital convergence zone for individuals and entities dedicated to bolstering public goods.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ## Usage
 
@@ -83,7 +75,7 @@ The latest Gitcoin Grant 18 was conducted on PGN to fund Public Good project.
 
 <summary>Governance</summary>
 
-The alliance, consisting of  [Protocol Guild](https://protocol-guild.readthedocs.io/), [Public Nouns](https://publicnouns.wtf/), [Clr.fund](https://clr.fund/), [Giveth](https://giveth.io/), [Hypercerts](https://hypercerts.org/), [Protocol Labs](https://protocol.ai/), [Octant](https://octant.build/), [Eco, ](http://eco.org/)[Hedgey ](https://hedgey.finance/)and [Gitcoin](http://gitcoin.co/), will oversee the allocation of sequencer fees, ensuring growth and sustainability of public goods funding.
+The alliance, consisting of [Protocol Guild](https://protocol-guild.readthedocs.io/), [Public Nouns](https://publicnouns.wtf/), [Clr.fund](https://clr.fund/), [Giveth](https://giveth.io/), [Hypercerts](https://hypercerts.org/), [Protocol Labs](https://protocol.ai/), [Octant](https://octant.build/), [Eco, ](http://eco.org/)[Hedgey ](https://hedgey.finance/)and [Gitcoin](http://gitcoin.co/), will oversee the allocation of sequencer fees, ensuring growth and sustainability of public goods funding.
 
 </details>
 
@@ -129,7 +121,7 @@ PGN is powered by the EVM equivalent Bedrock version of OP Stack which offers yo
 
 <details>
 
-<summary> Participate in Public Goods Funding</summary>
+<summary>Participate in Public Goods Funding</summary>
 
 By running decentralized applications (dApps) on the PGN network, developers automatically contribute to funding these essential public goods, fostering an ecosystem of collective support and collaboration.
 
@@ -167,8 +159,6 @@ By leveraging Blockchain technology, PGN introduces greater transparency and eff
 
 Notable names such as PublicNouns, clr\_fund, giveth, hypercerts, octantapp, endaomentdotorg, eco, protocollabs, and, of course, Gitcoin have expressed their support for the network.
 
-
-
 </details>
 
 <details>
@@ -195,7 +185,7 @@ To see the trend of the usage and user base of PGN check [here](https://www.grow
 
 <details>
 
-<summary> <strong>Onchain Profit</strong></summary>
+<summary><strong>Onchain Profit</strong></summary>
 
 This is what the chain makes in profit onchain each day. It quantifies profitability by comparing the revenue generated from L2 gas fees collected to the costs associated with data & proof posting onto the Ethereum blockchain. See current metrics [here](https://www.growthepie.xyz/fundamentals/profit).
 
@@ -221,42 +211,28 @@ Check out our Page about OP Stack for a short summary of OP Stack :point\_down:
 
 [op-stack.md](../op-stack.md "mention")
 
-
-
 Public Goods Network also plans to integrate with Optimism Superchains.
 
 If you do not know exactly what that is check out our short summary of that :point\_down:
 
 [superchain.md](../superchain.md "mention")
 
-
-
 ### Why is Superchain desired?
 
-*   **Accelerate activity**
-
-
-*   **Be a part of the Public Goods Infrastructure**
-
-
-*   E**asier development**
-
-
-*   **Builds towards an interoperable crypto economy**
-
-
+* **Accelerate activity**
+* **Be a part of the Public Goods Infrastructure**
+* E**asier development**
+* **Builds towards an interoperable crypto economy**
 
 ### Sequencer Fees
 
-Most of the net sequencer fees are designated for public goods initiatives. Following the initial six months post-launch of PGN, these fees will undergo evaluation and distribution, drawing on comprehensive data accumulated during that period. Specific governance details are currently under development, and organizations are welcome to become part of the Network Alliance.&#x20;
+Most of the net sequencer fees are designated for public goods initiatives. Following the initial six months post-launch of PGN, these fees will undergo evaluation and distribution, drawing on comprehensive data accumulated during that period. Specific governance details are currently under development, and organizations are welcome to become part of the Network Alliance.
 
 This collective will play a crucial role in shaping governance structures and deciding on the allocation of sequencer fees.
 
-> Filling blockspace is, in part, a race to the bottom. The bottom of the stack is where value capture is the most persistent and accepted.&#x20;
+> Filling blockspace is, in part, a race to the bottom. The bottom of the stack is where value capture is the most persistent and accepted.
 
 Rather than fill blockspace for other organizations who may be captured by VCs, or other rent-seeking motivations, PGN believes their blockspace should be filled such that they can reallocate those funds to further the objective of growing and funding public goods.
-
-
 
 {% embed url="https://docs.publicgoods.network/building-with-pgn/fees" %}
 How do network fees work on PGN?
@@ -270,11 +246,7 @@ Deploying contracts + Available development stacks
 Understanding PGN Gas Fees
 {% endembed %}
 
-
-
 ***
-
-
 
 ## Roadmap
 
@@ -282,7 +254,7 @@ Understanding PGN Gas Fees
 
 #### Airdrop?
 
-PGN is not planning an airdrop at this time but will explore how best to govern PGN in early 2024.&#x20;
+PGN is not planning an airdrop at this time but will explore how best to govern PGN in early 2024.
 
 #### Non-Token-Related Governance
 
@@ -304,11 +276,7 @@ The following Ethereum Improvement Proposal (EIP) proposes the introduction of C
 
 {% embed url="https://x.com/growthepie_eth/status/1712045131606417473?s=20" %}
 
-
-
 ## Official pages and Links
-
-
 
 {% embed url="https://publicgoods.network/" %}
 Official Website
