@@ -41,8 +41,12 @@
 
 ## OP Chains
 
-* [🌟 Superchain](op-chains/superchain.md)
 * [🧰 OP Stack](op-chains/op-stack.md)
+* [🌟 Superchain](op-chains/superchain.md)
+* [🛣️ Road to Superchain](op-chains/road-to-superchain/README.md)
+  * [✅ Chain Factories](op-chains/road-to-superchain/chain-factories.md)
+  * [✅ Permissionless Proof System](op-chains/road-to-superchain/permissionless-proof-system.md)
+  * [☑️ Configurable Sequencer per OP Chain.](op-chains/road-to-superchain/configurable-sequencer-per-op-chain..md)
 * [⛓️ Chain Knowledge](op-chains/chain-knowledge/README.md)
   * [🔵 Base](op-chains/chain-knowledge/base.md)
   * [⚪ Zora](op-chains/chain-knowledge/zora.md)
