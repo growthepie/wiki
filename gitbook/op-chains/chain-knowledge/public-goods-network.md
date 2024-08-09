@@ -1,8 +1,10 @@
----
-description: Chain Shut down!
----
-
 # 🟢 Public Goods Network
+
+{% hint style="info" %}
+**Please note**: The chain has been shut down. The information displayed serves only as a reference for learning and past developments.\
+\
+For more information, please go to [this announcement from Gitcoin](https://gov.gitcoin.co/t/announcing-the-spin-down-of-pgn-eol-june-2024/17430).
+{% endhint %}
 
 ## Introduction
 
