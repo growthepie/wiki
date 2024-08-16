@@ -18,7 +18,11 @@ v1/master.json
 
 ## Contracts endpoint
 
-This endpoint returns all labeled contracts for all our covered chains. It includes contract address, contract name, project name, sub category key, and origin key (which is the chain)
+{% hint style="warning" %}
+We are moving all contract labeling logic to the[ Open Labels Initiative](https://github.com/openlabelsinitiative/oli) standard. As a first step, we released [labels.growthepie.xyz](https://labels.growthepie.xyz/) and are currently working on better API endpoints. Please reach out to us via our Discord or X if you need API access to the new labels dataset - your input will be very valuable for scoping our API endpoints)
+{% endhint %}
+
+DEPRECATED (not updated anymore)! This endpoint returns all labeled contracts for all our covered chains. It includes contract address, contract name, project name, sub category key, and origin key (which is the chain)
 
 ```
 v1/contracts.json
