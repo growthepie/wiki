@@ -94,6 +94,10 @@ Sample Response
 ]
 ```
 
+{% hint style="warning" %}
+Metrics that represent values in currencies like USD or ETH always contain 2 metric keys (i.e. tvl and tvl\_eth)
+{% endhint %}
+
 ## Fundamentals endpoint
 
 This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5 a.m. UTC.
