@@ -50,6 +50,50 @@ v1/contracts.json
 ]
 ```
 
+## Metric endpoint
+
+These are multiple endpoints, one for each metric that we list.
+
+```
+v1/export/{METRIC}.json
+```
+
+It is currently available for the following metrics:&#x20;
+
+daa, fdv, fees, market\_cap, profit, rent\_paid, stables\_mcap, throughput, tvl, txcosts, txcount
+
+Example
+
+```
+https://api.growthepie.xyz/v1/export/daa.json
+```
+
+Sample Response
+
+```json
+[
+ {
+        "metric_key": "daa",
+        "origin_key": "imx",
+        "date": "2023-04-21",
+        "value": 8300.0
+    },
+    {
+        "metric_key": "daa",
+        "origin_key": "imx",
+        "date": "2023-04-25",
+        "value": 7834.0
+    },
+    {
+        "metric_key": "daa",
+        "origin_key": "imx",
+        "date": "2023-04-29",
+        "value": 7558.0
+    },
+    ...
+]
+```
+
 ## Fundamentals endpoint
 
 This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5 a.m. UTC.
