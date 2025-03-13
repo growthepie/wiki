@@ -19,7 +19,7 @@ v1/master.json
 ## Contracts endpoint
 
 {% hint style="warning" %}
-We are moving all contract labeling logic to the[ Open Labels Initiative](https://github.com/openlabelsinitiative/oli) standard. As a first step, we released [labels.growthepie.xyz](https://labels.growthepie.xyz/) and are currently working on better API endpoints. Please reach out to us via our Discord or X if you need API access to the new labels dataset - your input will be very valuable for scoping our API endpoints)
+We are moving all contract labeling logic to the[ Open Labels Initiative](https://www.openlabelsinitiative.org) standard. As a first step, we released [labels.growthepie.xyz](https://labels.growthepie.xyz/) and are currently working on better API endpoints. Please reach out to us via our Discord or X if you need API access to the new labels dataset - your input will be very valuable for scoping our API endpoints)
 {% endhint %}
 
 DEPRECATED (not updated anymore)! This endpoint returns all labeled contracts for all our covered chains. It includes contract address, contract name, project name, sub category key, and origin key (which is the chain)
@@ -60,7 +60,17 @@ v1/export/{METRIC}.json
 
 It is currently available for the following metrics:&#x20;
 
-daa, fdv, fees, market\_cap, profit, rent\_paid, stables\_mcap, throughput, tvl, txcosts, txcount
+* daa: Daily Active Address
+* fdv: Fully Diluted Valuation
+* fees: Fees Paid by Usersm
+* market\_cap: Market Cap
+* profit: Onchain Profit
+* rent\_paid: Rent Paid to L1
+* stables\_mcap: Stablecoin Market Cap&#x20;
+* throughput: Throughput
+* tvl: Total Value Secured&#x20;
+* txcosts: Median Transaction Costs&#x20;
+* txcount: Transaction Count
 
 Example
 
@@ -177,7 +187,7 @@ PowerBI is a powerful BI and data visualization tool. If you want to load all La
 * Make sure the "value" column is formatted as decimal
 * Load the data into your report and have fun exploring.
 
-Here is a quick video walkthrough: [https://x.com/web3\_data/status/1697573767751548953?s=20](https://x.com/web3\_data/status/1697573767751548953?s=20)
+Here is a quick video walkthrough: [https://x.com/web3\_data/status/1697573767751548953?s=20](https://x.com/web3_data/status/1697573767751548953?s=20)
 
 <figure><img src=".gitbook/assets/Screenshot 2023-09-29 092125.png" alt=""><figcaption></figcaption></figure>
 
