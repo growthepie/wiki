@@ -60,9 +60,9 @@ v1/export/{METRIC}.json
 
 It is currently available for the following metrics:&#x20;
 
-* daa: Daily Active Address
+* daa: Daily Active Addresses
 * fdv: Fully Diluted Valuation
-* fees: Fees Paid by Usersm
+* fees: Fees Paid by Users
 * market\_cap: Market Cap
 * profit: Onchain Profit
 * rent\_paid: Rent Paid to L1
