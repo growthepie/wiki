@@ -3,15 +3,6 @@
 * [Introduction](README.md)
 * [API](api.md)
 
-## Methodology
-
-* [Blockspace](methodology/blockspace.md)
-* [Fundamentals](methodology/fundamentals/README.md)
-  * [🕓 Activity](methodology/fundamentals/activity.md)
-  * [⭐ Value Locked](methodology/fundamentals/value-locked.md)
-  * [💳 Economics](methodology/fundamentals/economics.md)
-  * [🔀 Convenience](methodology/fundamentals/convenience.md)
-
 ## General Layer 2 Knowledge
 
 * [📜 Data Availability](general-layer-2-knowledge/data-availability/README.md)

@@ -6,11 +6,11 @@ description: >-
 
 # API
 
-Our API endpoint can be found at `https://api.growthepie.xyz/`
+Our API endpoint can be found at `https://api.growthepie.com/`
 
 ## Master endpoint
 
-This endpoint contains info on all supported chains and metrics. It is mostly static meta data like chain names, important links, etc.
+This endpoint contains info on all supported chains and metrics. It is mostly static metadata like chain names, important links, etc.
 
 ```
 v1/master.json
@@ -22,33 +22,7 @@ v1/master.json
 We are moving all contract labeling logic to the[ Open Labels Initiative](https://www.openlabelsinitiative.org) standard. As a first step, we released [labels.growthepie.xyz](https://labels.growthepie.xyz/) and are currently working on better API endpoints. Please reach out to us via our Discord or X if you need API access to the new labels dataset - your input will be very valuable for scoping our API endpoints)
 {% endhint %}
 
-DEPRECATED (not updated anymore)! This endpoint returns all labeled contracts for all our covered chains. It includes contract address, contract name, project name, sub category key, and origin key (which is the chain)
 
-```
-v1/contracts.json
-```
-
-#### Sample Reponse
-
-```json
-[
-    {
-        "address": "0xEa2a41c02fA86A4901826615F9796e603C6a4491",
-        "contract_name": "BridgeToBase",
-        "project_name": "Base",
-        "sub_category_key": "erc721",
-        "origin_key": "base"
-    },
-    {
-        "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
-        "contract_name": "Vault",
-        "project_name": "Balancer",
-        "sub_category_key": "dex",
-        "origin_key": "arbitrum"
-    },
-    ...
-]
-```
 
 ## Metric endpoint
 
@@ -75,7 +49,7 @@ It is currently available for the following metrics:&#x20;
 Example
 
 ```
-https://api.growthepie.xyz/v1/export/daa.json
+https://api.growthepie.com/v1/export/daa.json
 ```
 
 Sample Response
@@ -110,11 +84,7 @@ Metrics that represent values in currencies like USD or ETH always contain 2 met
 
 ## Fundamentals endpoint
 
-This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level. The data updates daily at 5 a.m. UTC.
-
-`v1/fundamentals_full.json`
-
-This endpoint will grow in size and will return >10MB of data. We also created a filtered endpoint (only last 365 days and no eth values) which can be used in Google Sheets and other applications that limit the input data to 10MB.
+This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level in the last 90 days. It can also be used in Google Sheets and other applications.
 
 `v1/fundamentals.json`
 
@@ -152,7 +122,7 @@ You can quickly load data on all Layer 2s into a Pandas dataframe using the foll
 import requests
 import pandas as pd
 
-url = 'https://api.growthepie.xyz/v1/fundamentals_full.json'
+url = 'https://api.growthepie.com/v1/fundamentals.json'
 response = requests.get(url)
 df = pd.DataFrame(response.json())
 ```
@@ -199,7 +169,7 @@ Sometimes it can be useful to have up-to-date Layer 2 data in Google Sheets. Wit
 * Paste function in cell
 
 ```
-=ImportJSON("https://api.growthepie.xyz/v1/fundamentals.json")
+=ImportJSON("https://api.growthepie.com/v1/fundamentals.json")
 ```
 
 <figure><img src=".gitbook/assets/Screenshot 2023-09-29 093630.png" alt=""><figcaption></figcaption></figure>
