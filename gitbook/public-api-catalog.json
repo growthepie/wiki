@@ -1,0 +1,45 @@
+{
+  "api_root": "https://api.growthepie.com/",
+  "canonical_terms": [
+    "origin_key",
+    "metric_id",
+    "metric_key",
+    "value",
+    "date",
+    "chain",
+    "app",
+    "ecosystem"
+  ],
+  "public_endpoints": [
+    {
+      "path": "/v1/master.json",
+      "summary": "Canonical metadata index for chains, metrics, units, DA layers, and coverage.",
+      "auth_required": false
+    },
+    {
+      "path": "/v1/fundamentals.json",
+      "summary": "Flat daily export across public fundamental metrics for the last 90 days.",
+      "auth_required": false
+    },
+    {
+      "path": "/v1/export/{metric}.json",
+      "summary": "Flat full-history export for one public fundamental metric.",
+      "auth_required": false
+    },
+    {
+      "path": "/v1/chains/{origin_key}/overview.json",
+      "summary": "Rich chain summary with highlights, events, rankings, KPI cards, achievements, and ecosystem context.",
+      "auth_required": false
+    },
+    {
+      "path": "/v1/metrics/chains/{origin_key}/{metric_id}.json",
+      "summary": "Rich per-chain metric payload with daily, weekly, monthly, quarterly, and optional hourly series.",
+      "auth_required": false
+    },
+    {
+      "path": "/v1/labels/projects.json",
+      "summary": "Project coverage typed table with owner_project and descriptive metadata.",
+      "auth_required": false
+    }
+  ]
+}

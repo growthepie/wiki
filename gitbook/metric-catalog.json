@@ -1,0 +1,76 @@
+{
+  "metrics": [
+    {
+      "metric_id": "app_revenue",
+      "display_name": "App Revenue",
+      "metric_keys": ["app_fees_usd", "app_fees_eth"],
+      "hourly_available": false
+    },
+    {
+      "metric_id": "daa",
+      "display_name": "Active Addresses",
+      "metric_keys": ["daa"],
+      "hourly_available": true
+    },
+    {
+      "metric_id": "fdv",
+      "display_name": "Fully Diluted Valuation",
+      "metric_keys": ["fdv_usd", "fdv_eth"],
+      "hourly_available": false
+    },
+    {
+      "metric_id": "fees",
+      "display_name": "Revenue",
+      "metric_keys": ["fees_paid_usd", "fees_paid_eth"],
+      "hourly_available": true
+    },
+    {
+      "metric_id": "market_cap",
+      "display_name": "Market Cap",
+      "metric_keys": ["market_cap_usd", "market_cap_eth"],
+      "hourly_available": false
+    },
+    {
+      "metric_id": "profit",
+      "display_name": "Onchain Profit",
+      "metric_keys": ["profit_usd", "profit_eth"],
+      "hourly_available": false
+    },
+    {
+      "metric_id": "rent_paid",
+      "display_name": "Rent Paid to L1",
+      "metric_keys": ["rent_paid_usd", "rent_paid_eth"],
+      "hourly_available": false
+    },
+    {
+      "metric_id": "stables_mcap",
+      "display_name": "Stablecoin Supply",
+      "metric_keys": ["stables_mcap", "stables_mcap_eth"],
+      "hourly_available": false
+    },
+    {
+      "metric_id": "throughput",
+      "display_name": "Throughput",
+      "metric_keys": ["gas_per_second"],
+      "hourly_available": true
+    },
+    {
+      "metric_id": "tvl",
+      "display_name": "Total Value Secured",
+      "metric_keys": ["tvl", "tvl_eth"],
+      "hourly_available": false
+    },
+    {
+      "metric_id": "txcosts",
+      "display_name": "Transaction Costs",
+      "metric_keys": ["txcosts_median_usd", "txcosts_median_eth"],
+      "hourly_available": true
+    },
+    {
+      "metric_id": "txcount",
+      "display_name": "Transaction Count",
+      "metric_keys": ["txcount"],
+      "hourly_available": true
+    }
+  ]
+}

@@ -1,175 +1,66 @@
 ---
 description: >-
-  On this page, you can find our different endpoints and some examples of how to
-  quickly connect them to your favorite data analytics tool.
+  Use this page to understand the growthepie API base URL, public endpoint
+  families, response conventions, and the fastest path to the right JSON file.
 ---
 
-# API
+# API Overview
 
-Our API endpoint can be found at `https://api.growthepie.com/`
+The growthepie API is a public JSON API rooted at `https://api.growthepie.com/`. The fastest way to work with the API is to start with `master.json` for metadata, use `fundamentals.json` or `export/{metric}.json` for flat daily rows, and use the richer `chains/.../overview.json` or `metrics/.../{metric_id}.json` endpoints when you need summaries, rankings, rolling windows, or multi-granularity time series.
 
-## Master endpoint
+The API currently exposes JSON files rather than a published OpenAPI specification. That means the canonical source of truth for supported chains, metrics, units, and coverage is `master.json`, plus the backend metric registry mirrored in the docs on this site.
 
-This endpoint contains info on all supported chains and metrics. It is mostly static metadata like chain names, important links, etc.
+## Base URL
 
-```
-v1/master.json
-```
-
-## Contracts endpoint
-
-{% hint style="warning" %}
-We are moving all contract labeling logic to the[ Open Labels Initiative](https://www.openlabelsinitiative.org) standard. As a first step, we released [labels.growthepie.xyz](https://labels.growthepie.xyz/) and are currently working on better API endpoints. Please reach out to us via our Discord or X if you need API access to the new labels dataset - your input will be very valuable for scoping our API endpoints)
-{% endhint %}
-
-
-
-## Metric endpoint
-
-These are multiple endpoints, one for each metric that we list.
-
-```
-v1/export/{METRIC}.json
+```text
+https://api.growthepie.com/
 ```
 
-It is currently available for the following metrics:&#x20;
+## Authentication
 
-* daa: Daily Active Addresses
-* fdv: Fully Diluted Valuation
-* fees: Fees Paid by Users
-* market\_cap: Market Cap
-* profit: Onchain Profit
-* rent\_paid: Rent Paid to L1
-* stables\_mcap: Stablecoin Market Cap&#x20;
-* throughput: Throughput
-* tvl: Total Value Secured&#x20;
-* txcosts: Median Transaction Costs&#x20;
-* txcount: Transaction Count
+No authentication is required for the public endpoints documented in this site.
 
-Example
+## Response Conventions
 
-```
-https://api.growthepie.com/v1/export/daa.json
-```
+* Flat export endpoints such as `fundamentals.json` and `export/{metric}.json` return arrays of rows with `metric_key`, `origin_key`, `date`, and `value`.
+* Richer detail endpoints such as `chains/{origin_key}/overview.json` and `metrics/chains/{origin_key}/{metric_id}.json` return objects with `last_updated_utc` and nested structured payloads.
+* Daily export endpoints use `date` values formatted as `YYYY-MM-DD`.
+* Richer time-series endpoints often use `unix` timestamps in milliseconds instead of `date` strings.
 
-Sample Response
+## Public Endpoint Families
 
-```json
-[
- {
-        "metric_key": "daa",
-        "origin_key": "imx",
-        "date": "2023-04-21",
-        "value": 8300.0
-    },
-    {
-        "metric_key": "daa",
-        "origin_key": "imx",
-        "date": "2023-04-25",
-        "value": 7834.0
-    },
-    {
-        "metric_key": "daa",
-        "origin_key": "imx",
-        "date": "2023-04-29",
-        "value": 7558.0
-    },
-    ...
-]
+| Endpoint | Use when | Returns |
+| --- | --- | --- |
+| `v1/master.json` | You need metadata and coverage | Chains, metrics, DA layers, sources, and canonical metadata |
+| `v1/fundamentals.json` | You need a broad daily export | Flat daily rows for supported fundamental metrics in the last 90 days |
+| `v1/export/{metric}.json` | You need one metric across all covered chains | Flat daily rows for a single fundamental metric |
+| `v1/chains/{origin_key}/overview.json` | You need chain summaries | Highlights, events, rankings, KPI cards, achievements, and ecosystem context |
+| `v1/metrics/chains/{origin_key}/{metric_id}.json` | You need a rich metric detail page | Daily, weekly, monthly, quarterly, and optional hourly time series plus summary values |
+| `v1/labels/projects.json` | You need project coverage | Project metadata as a typed table |
+
+## Example Request
+
+```bash
+curl -s https://api.growthepie.com/v1/master.json
 ```
 
-{% hint style="warning" %}
-Metrics that represent values in currencies like USD or ETH always contain 2 metric keys (i.e. tvl and tvl\_eth)
-{% endhint %}
+## FAQ
 
-## Fundamentals endpoint
+### Which endpoint should I start with?
 
-This is a very powerful endpoint for analytics and tracking. It returns all Layer 2 metrics for all chains on a daily aggregation level in the last 90 days. It can also be used in Google Sheets and other applications.
+Start with `master.json`. `master.json` tells you which `origin_key` values and `metric_id` values are supported before you query a narrower endpoint.
 
-`v1/fundamentals.json`
+### Is there a published OpenAPI spec?
 
-#### Sample Response
+Not at the moment. This docs set documents the current public JSON surface directly from the live API and backend source of truth.
 
-```json
-[
-    {
-        "metric_key": "daa",
-        "origin_key": "imx",
-        "date": "2023-04-21",
-        "value": 8300.0
-    },
-    {
-        "metric_key": "txcount",
-        "origin_key": "zksync_era",
-        "date": "2023-02-14",
-        "value": 6.0
-    },
-    {
-        "metric_key": "daa",
-        "origin_key": "imx",
-        "date": "2023-04-25",
-        "value": 7834.0
-    },
-    ...
-]
-```
+### Should I use `metric_id` or `metric_key`?
 
-### **Example Python**
+Use `metric_id` when the endpoint path expects a higher-level metric such as `txcount` or `fees`. Use `metric_key` when you are reading raw exported rows such as `fees_paid_usd`.
 
-You can quickly load data on all Layer 2s into a Pandas dataframe using the following code snippet:
+## Related Pages
 
-```python
-import requests
-import pandas as pd
-
-url = 'https://api.growthepie.com/v1/fundamentals.json'
-response = requests.get(url)
-df = pd.DataFrame(response.json())
-```
-
-If you want to quickly visualize the data points you can use the dataframe plot function. Here filtered down to Arbitrum and transaction count:
-
-```python
-df[(df['metric_key'] == 'txcount') & (df['origin_key'] == 'arbitrum')].sort_values('date').plot(x='date', y='value', figsize=(15, 5), title='Arbitrum Daily Transactions')
-```
-
-<figure><img src=".gitbook/assets/Screenshot 2023-09-29 091713.png" alt=""><figcaption></figcaption></figure>
-
-### Example Excel
-
-Excel is still the most widely used tool for data analytics. Using our API, you can build this neat dashboard in less than 2 minutes:
-
-<figure><img src=".gitbook/assets/Recording 2024-04-05 at 12.26.31.gif" alt=""><figcaption><p>Excel dashboard example</p></figcaption></figure>
-
-Here is a quick guide on how to pull data from our API and visualize it
-
-{% embed url="https://twitter.com/web3_data/status/1776194203602571663" %}
-Guide for Excel usage
-{% endembed %}
-
-### Example PowerBI
-
-PowerBI is a powerful BI and data visualization tool. If you want to load all Layer 2 data into a PowerBI dashboard follow these steps:
-
-* Open a new PowerBI file
-* Load data using the "Web" data connector
-* Paste the API endpoint in the URL field
-* Make sure the "value" column is formatted as decimal
-* Load the data into your report and have fun exploring.
-
-Here is a quick video walkthrough: [https://x.com/web3\_data/status/1697573767751548953?s=20](https://x.com/web3_data/status/1697573767751548953?s=20)
-
-<figure><img src=".gitbook/assets/Screenshot 2023-09-29 092125.png" alt=""><figcaption></figcaption></figure>
-
-### Example Google Sheets
-
-Sometimes it can be useful to have up-to-date Layer 2 data in Google Sheets. With our endpoint, it is very simple.
-
-* Create app script for ImportJson function (code: [https://gist.github.com/paulgambill/cacd19da95a1421d3164](https://gist.github.com/paulgambill/cacd19da95a1421d3164))
-* Paste function in cell
-
-```
-=ImportJSON("https://api.growthepie.com/v1/fundamentals.json")
-```
-
-<figure><img src=".gitbook/assets/Screenshot 2023-09-29 093630.png" alt=""><figcaption></figcaption></figure>
+* [Quickstart](getting-started/quickstart.md)
+* [Endpoint: master.json](api-reference/master-json.md)
+* [Endpoint: fundamentals.json](api-reference/fundamentals-json.md)
+* [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)

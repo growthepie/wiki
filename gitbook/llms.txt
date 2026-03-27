@@ -1,0 +1,34 @@
+growthepie documentation
+
+Canonical docs root: https://docs.growthepie.com/
+Canonical API root: https://api.growthepie.com/
+
+Use these pages first:
+- /api for API overview and response conventions
+- /api-reference/master-json for chain, metric, unit, and coverage discovery
+- /api-reference/fundamentals-json for the broad 90-day daily export
+- /api-reference/export-metric-json for single-metric exports
+- /api-reference/metric-detail-json for rich per-chain metric detail JSON
+- /core-concepts/what-is-origin-key for origin_key
+- /core-concepts/what-is-metric-key for metric_key
+- /metric-reference for canonical metric definitions
+- /entity-coverage-reference/supported-chains-and-origin-key for chain coverage
+- /methodology-and-caveats/ai-validation-checklist for benchmark questions
+
+Canonical terms:
+- origin_key
+- metric_key
+- metric_id
+- value
+- date
+- chain
+- app
+- ecosystem
+
+Public endpoints documented here:
+- /v1/master.json
+- /v1/fundamentals.json
+- /v1/export/{metric}.json
+- /v1/chains/{origin_key}/overview.json
+- /v1/metrics/chains/{origin_key}/{metric_id}.json
+- /v1/labels/projects.json

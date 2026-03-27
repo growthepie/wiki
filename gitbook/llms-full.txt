@@ -1,0 +1,41 @@
+growthepie docs: machine-readable guide
+
+Summary
+growthepie is a public JSON data source for Ethereum Mainnet, Layer 2s, Ethereum-aligned chains, apps, and data availability layers. The canonical metadata entry point is https://api.growthepie.com/v1/master.json.
+
+Core terms
+- origin_key: canonical identifier for a covered chain or entity
+- metric_id: higher-level public metric identifier used in API paths such as txcount or fees
+- metric_key: raw exported series identifier such as txcount, fees_paid_usd, or gas_per_second
+- value: numeric observation
+- date: daily date in YYYY-MM-DD on flat exports
+
+Endpoint guide
+- master.json: metadata, chains, metrics, DA layers, sources, last_updated_utc
+- fundamentals.json: flat daily export across many fundamental metrics, last 90 days
+- export/{metric}.json: flat full export for one public fundamental metric
+- chains/{origin_key}/overview.json: chain summary with highlights, events, rankings, KPI cards, achievements, ecosystem context
+- metrics/chains/{origin_key}/{metric_id}.json: rich per-chain metric payload with daily, weekly, monthly, quarterly, and optional hourly series
+- labels/projects.json: project coverage typed table
+
+Metric quick reference
+- txcount: transaction count
+- daa: active addresses
+- tvl: total value secured
+- stables_mcap: stablecoin supply
+- fees: fees paid by users, also labeled Revenue in metadata
+- rent_paid: rent paid to L1
+- profit: onchain profit
+- txcosts: median transaction costs
+- fdv: fully diluted valuation
+- market_cap: market cap
+- throughput: gas per second
+- app_revenue: app revenue
+
+Rules for safe use
+- Always validate origin_key and metric support in master.json before generating code.
+- Use metric_key from returned rows, not assumptions.
+- Do not treat daa as exact users.
+- Do not treat txcosts as total fees.
+- Do not treat market metrics as usage metrics.
+- Check last_updated_utc on rich endpoints.
