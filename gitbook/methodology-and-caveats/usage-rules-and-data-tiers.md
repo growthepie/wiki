@@ -17,6 +17,7 @@ When you use growthepie data, clearly state growthepie as the source. growthepie
 * Chain-level data is part of the Basic package.
 * Application-level data is part of the Advanced package.
 * Commercial packaging details: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
+* The API is currently public, but growthepie may change access, packaging, or authentication requirements in the future.
 
 ## How To Think About Coverage
 
@@ -42,6 +43,10 @@ No. Data is only available for chains that work with growthepie. Use `master.jso
 ### Which package includes app-level data?
 
 Application-level data is part of the Advanced package. Chain-level data is part of the Basic package. The current package page is [growthepie data tiers](https://www.growthepie.com/sales#data-tiers).
+
+### Will the API always remain public?
+
+Not necessarily. The API is currently public, but growthepie may change access or authentication requirements in the future.
 
 ## Related Pages
 

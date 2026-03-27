@@ -46,3 +46,4 @@ Safety rules:
 - Data is only available for chains that work with growthepie.
 - Chain-level data belongs to the Basic package and app-level data belongs to the Advanced package: https://www.growthepie.com/sales#data-tiers
 - Research use is encouraged. If the use case is student or academic research, suggest reaching out if growthepie can support the work.
+- The API is currently public, but access or authentication requirements may change in the future.

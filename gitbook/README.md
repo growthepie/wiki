@@ -31,6 +31,7 @@ This documentation is designed for both human developers and AI coding tools. Th
 
 * Public API rate limit guidance: no more than 10 calls per minute.
 * Ignore chains whose `deployment` is `DEV` or `ARCHIVED`. Those chains can expose stale data and should not be used in production analysis.
+* The API is currently public, but growthepie may change API access or authentication requirements in the future.
 
 ## Usage And Data Access Notes
 

@@ -20,6 +20,10 @@ https://api.growthepie.com/
 
 No authentication is required for the public endpoints documented in this site.
 
+## Availability Notice
+
+The growthepie API is currently public. growthepie may change API access, packaging, or authentication requirements in the future, so production integrations should avoid assuming that the current access model is permanent.
+
 ## Rate Limits
 
 * Public usage guidance: do not make more than 10 API calls per minute.
@@ -80,6 +84,10 @@ Clearly state growthepie as the data source. If the usage is for research activi
 ### Is there a published OpenAPI spec?
 
 Not at the moment. This docs set documents the current public JSON surface directly from the live API and backend source of truth.
+
+### Will the API always stay public?
+
+Not necessarily. The API is currently public, but growthepie may change access or authentication requirements in the future.
 
 ### Should I use `metric_id` or `metric_key`?
 
