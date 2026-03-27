@@ -12,6 +12,7 @@
 
 * [What Is growthepie?](core-concepts/what-is-growthepie.md)
 * [What Is origin_key?](core-concepts/what-is-origin-key.md)
+* [What Is owner_project?](core-concepts/what-is-owner-project.md)
 * [What Is metric_key?](core-concepts/what-is-metric-key.md)
 * [Chain vs App vs Ecosystem Metrics](core-concepts/chain-vs-app-vs-ecosystem-metrics.md)
 * [Time Granularity, Freshness, And Update Cadence](core-concepts/time-granularity-freshness-and-update-cadence.md)
@@ -27,6 +28,7 @@
   * [Endpoint: chains/{origin_key}/overview.json](api-reference/chain-overview-json.md)
   * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)
   * [Endpoint: labels/projects.json](api-reference/labels-projects-json.md)
+  * [Endpoint: apps/details/{owner_project}.json](api-reference/app-detail-json.md)
 
 ## Metric Reference
 

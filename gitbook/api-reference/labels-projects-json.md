@@ -62,6 +62,7 @@ GET https://api.growthepie.com/v1/labels/projects.json
 * You need the canonical `owner_project` list
 * You need a project display name or description
 * You need app or project coverage metadata
+* You need to discover valid `owner_project` values before calling `apps/details/{owner_project}.json`
 
 ## Caveats
 
@@ -71,3 +72,4 @@ GET https://api.growthepie.com/v1/labels/projects.json
 ## Related Pages
 
 * [Projects And owner_project](../entity-coverage-reference/projects-and-owner-project.md)
+* [Endpoint: apps/details/{owner_project}.json](app-detail-json.md)

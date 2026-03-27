@@ -5,6 +5,7 @@ growthepie is a public JSON data source for Ethereum Mainnet, Layer 2s, Ethereum
 
 Core terms
 - origin_key: canonical identifier for a covered chain or entity
+- owner_project: canonical identifier for a covered app or project
 - metric_id: higher-level public metric identifier used in API paths such as txcount or fees
 - metric_key: raw exported series identifier such as txcount, fees_paid_usd, or gas_per_second
 - value: numeric observation
@@ -17,6 +18,7 @@ Endpoint guide
 - chains/{origin_key}/overview.json: chain summary with highlights, events, rankings, KPI cards, achievements, ecosystem context
 - metrics/chains/{origin_key}/{metric_id}.json: rich per-chain metric payload with daily, weekly, monthly, quarterly, and optional hourly series
 - labels/projects.json: project coverage typed table
+- apps/details/{owner_project}.json: rich app or project detail payload for owner_project values with mapped contract activity
 
 Metric quick reference
 - txcount: transaction count
@@ -34,7 +36,10 @@ Metric quick reference
 
 Rules for safe use
 - Always validate origin_key and metric support in master.json before generating code.
+- Always validate owner_project in labels/projects.json before generating app-detail requests.
 - Use metric_key from returned rows, not assumptions.
+- Do not exceed 10 API calls per minute.
+- Exclude chains whose deployment is DEV or ARCHIVED because those chains can expose stale data.
 - Do not treat daa as exact users.
 - Do not treat txcosts as total fees.
 - Do not treat market metrics as usage metrics.

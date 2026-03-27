@@ -16,12 +16,13 @@ Different growthepie endpoints answer different developer intents. This page map
 | What does the chain overview for `arbitrum` look like? | `v1/chains/arbitrum/overview.json` | Returns highlights, events, rankings, KPI cards, and ecosystem context |
 | What is the rich metric detail view for `txcount` on `arbitrum`? | `v1/metrics/chains/arbitrum/txcount.json` | Returns multiple time granularities, changes, and summary values |
 | Which apps or projects are covered? | `v1/labels/projects.json` | Returns project coverage metadata |
+| What does the project detail page for `uniswap` look like? | `v1/apps/details/uniswap.json` | Returns project-level metrics, KPI cards, first-seen dates, and contracts tables |
 
 ## Rule Of Thumb
 
 * Start with `master.json` if you need discovery.
 * Use flat exports if you want rows that load cleanly into spreadsheets, pandas, SQL, or notebooks.
-* Use richer detail endpoints if you want pre-aggregated summaries, rankings, rolling windows, or multiple time granularities.
+* Use richer detail endpoints if you want pre-aggregated summaries, rankings, rolling windows, multiple time granularities, or project-level breakdowns.
 
 ## Caveats
 

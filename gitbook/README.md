@@ -14,6 +14,7 @@ This documentation is designed for both human developers and AI coding tools. Th
 ## Canonical Terms
 
 * `origin_key`: The canonical identifier for a chain, app, or other covered entity in growthepie data.
+* `owner_project`: The canonical identifier for a covered app or project in project-level endpoints such as `labels/projects.json` and `apps/details/{owner_project}.json`.
 * `metric_key`: The canonical identifier for a raw metric series such as `txcount` or `fees_paid_usd`.
 * `metric_id`: The higher-level metric identifier used in richer detail endpoints such as `txcount`, `daa`, or `fees`.
 * `value`: The numeric observation for a metric at a given point in time.
@@ -23,8 +24,13 @@ This documentation is designed for both human developers and AI coding tools. Th
 
 * Chain-level metrics such as transaction count, active addresses, transaction costs, total value secured, stablecoin supply, revenue, and throughput.
 * Richer per-chain JSON such as chain overview pages and metric detail pages.
-* Project coverage via `labels/projects.json`.
+* Project coverage via `labels/projects.json` and project detail JSON via `apps/details/{owner_project}.json`.
 * Data availability coverage and data availability metrics exposed in `master.json`.
+
+## Usage Limits And Freshness Safety
+
+* Public API rate limit guidance: no more than 10 calls per minute.
+* Ignore chains whose `deployment` is `DEV` or `ARCHIVED`. Those chains can expose stale data and should not be used in production analysis.
 
 ## Source Of Truth
 

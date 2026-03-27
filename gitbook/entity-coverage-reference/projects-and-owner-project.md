@@ -4,7 +4,7 @@ description: Reference for growthepie project coverage and owner_project identif
 
 # Projects And owner_project
 
-`owner_project` is the canonical project identifier exposed by `labels/projects.json`. Use `owner_project` when you need to map project metadata or join project coverage with downstream analysis workflows.
+`owner_project` is the canonical project identifier exposed by `labels/projects.json`. Use `owner_project` when you need to map project metadata, join project coverage with downstream analysis workflows, or fetch a project detail response from `apps/details/{owner_project}.json`.
 
 ## Key Facts
 
@@ -26,6 +26,7 @@ Use `labels/projects.json` when you need to answer questions such as:
 * Which `owner_project` values are covered?
 * What human-readable name matches a given `owner_project`?
 * Which categories and subcategories are assigned to a project?
+* Which project detail JSON path should I call for a given app?
 
 ## Caveats
 
@@ -34,5 +35,7 @@ Use `labels/projects.json` when you need to answer questions such as:
 
 ## Related Pages
 
+* [What Is owner_project?](../core-concepts/what-is-owner-project.md)
 * [Endpoint: labels/projects.json](../api-reference/labels-projects-json.md)
+* [Endpoint: apps/details/{owner_project}.json](../api-reference/app-detail-json.md)
 * [Chain vs App vs Ecosystem Metrics](../core-concepts/chain-vs-app-vs-ecosystem-metrics.md)

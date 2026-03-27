@@ -20,7 +20,7 @@ Chain metrics describe a covered chain. Examples include `txcount`, `daa`, `tvl`
 
 ### App metrics
 
-App coverage is exposed through project metadata and app-related fields. The canonical public starting point is `labels/projects.json`.
+App coverage is exposed through project metadata and app-related fields. The canonical public starting points are `labels/projects.json` for project discovery and `apps/details/{owner_project}.json` for project detail.
 
 ### Ecosystem context
 
@@ -35,3 +35,4 @@ Ecosystem context combines chain-level and app-level information. For example, t
 
 * [Projects And owner_project](../entity-coverage-reference/projects-and-owner-project.md)
 * [Endpoint: chains/{origin_key}/overview.json](../api-reference/chain-overview-json.md)
+* [Endpoint: apps/details/{owner_project}.json](../api-reference/app-detail-json.md)

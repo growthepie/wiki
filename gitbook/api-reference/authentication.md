@@ -11,6 +11,7 @@ The public growthepie endpoints documented on this site do not require authentic
 * Public base URL: `https://api.growthepie.com/`
 * Public auth requirement: none
 * Public content type: JSON
+* Public usage guidance: do not exceed 10 calls per minute
 
 ## Example Request
 

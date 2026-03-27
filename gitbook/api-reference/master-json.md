@@ -4,7 +4,7 @@ description: Reference for the growthepie master.json endpoint, the canonical me
 
 # Endpoint: master.json
 
-`master.json` is the canonical metadata index for the public growthepie API. `master.json` answers the core discovery questions directly: which chains are covered, which metrics are supported, what units each metric uses, which chains support each metric, and when the metadata was last updated.
+`master.json` is the canonical metadata index for the public growthepie API. `master.json` answers the core discovery questions directly: which chains are covered, which metrics are supported, what units each metric uses, which chains support each metric, which chains should be excluded because they are stale, and when the metadata was last updated.
 
 ## Request
 
@@ -18,6 +18,7 @@ GET https://api.growthepie.com/v1/master.json
 * Best use case: discovery, metadata, coverage, and schema-aware clients
 * Response type: object
 * Includes: `chains`, `metrics`, `da_layers`, `da_metrics`, `sources`, `maturity_levels`, `last_updated_utc`
+* Chain deployment safety field: `deployment` in the current live API, and `deployment_flag` if present on other environments
 
 ## Example Response
 
@@ -61,6 +62,7 @@ GET https://api.growthepie.com/v1/master.json
 * Before validating a `metric_id`
 * Before deciding whether a metric has hourly detail
 * Before deciding whether a chain supports a given metric
+* Before excluding stale chains whose `deployment` or `deployment_flag` is `DEV` or `ARCHIVED`
 
 ## FAQ
 
@@ -72,8 +74,13 @@ Prefer `master.json` over hardcoding. `master.json` is the intended machine-read
 
 Use `master.json.metrics.{metric_id}.metric_keys`.
 
+### Which chains should I exclude because of stale data?
+
+Exclude any chain whose `deployment` is `DEV` or `ARCHIVED`.
+
 ## Related Pages
 
 * [What Is origin_key?](../core-concepts/what-is-origin-key.md)
+* [What Is owner_project?](../core-concepts/what-is-owner-project.md)
 * [What Is metric_key?](../core-concepts/what-is-metric-key.md)
 * [Supported Chains And origin_key](../entity-coverage-reference/supported-chains-and-origin-key.md)

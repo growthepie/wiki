@@ -10,6 +10,7 @@ growthepie exposes freshness in two main ways. Rich endpoints expose `last_updat
 
 * `master.json` exposes `last_updated_utc`
 * Rich chain and metric detail endpoints expose `last_updated_utc`
+* App detail endpoints expose `last_updated_utc`
 * `fundamentals.json` is a rolling 90-day daily export
 * Hourly detail exists only for metrics marked `hourly_available: true` in `master.json`
 

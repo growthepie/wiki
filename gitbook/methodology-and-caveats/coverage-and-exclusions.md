@@ -10,6 +10,7 @@ Coverage in growthepie is metric-specific and chain-specific. A chain can be pre
 
 * Check `master.json.chains.{origin_key}.supported_metrics`
 * Check `master.json.metrics.{metric_id}.supported_chains`
+* Exclude chains whose `deployment` is `DEV` or `ARCHIVED`
 * The live API changes over time, so prefer metadata over hardcoded lists
 
 ## Practical Guidance
