@@ -23,8 +23,7 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * Auth: not required
 * Rate limit guidance: do not exceed 10 calls per minute
 * Path parameter: `owner_project`
-* Public discovery source for valid `owner_project`: `labels/projects.json`
-* This route is also currently reachable on `https://api.growthepie.com/`
+* Public discovery source for valid `owner_project`: `labels/projects_filtered.json`
 
 ## Key Response Sections
 
@@ -73,6 +72,7 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * You need app-level metrics for one project
 * You want chain-by-chain activity for one app
 * You need first-seen dates or contract-level tables for one project
+* You have already confirmed that the `owner_project` exists in `labels/projects_filtered.json`
 
 ## When Not To Use apps/details/{owner_project}.json
 
@@ -82,10 +82,12 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 ## Caveats
 
 * This endpoint exists for `owner_project` values with mapped contract activity.
+* The app detail endpoint is only available for `owner_project` values in `labels/projects_filtered.json`, not for every project in `labels/projects.json`.
 * The metric set can vary by project. The `uniswap` example currently exposes metrics such as `txcount`, `daa`, `gas_fees`, `success_rate`, `market_cap`, `token_price`, and `token_volume`.
-* Use `labels/projects.json` before generating code that assumes a project exists.
+* Use `labels/projects_filtered.json` before generating code that assumes an app-detail endpoint exists.
 
 ## Related Pages
 
 * [What Is owner_project?](../core-concepts/what-is-owner-project.md)
 * [Endpoint: labels/projects.json](labels-projects-json.md)
+* [Endpoint: labels/projects_filtered.json](labels-projects-filtered-json.md)

@@ -18,6 +18,7 @@ Endpoint guide
 - chains/{origin_key}/overview.json: chain summary with highlights, events, rankings, KPI cards, achievements, ecosystem context
 - metrics/chains/{origin_key}/{metric_id}.json: rich per-chain metric payload with daily, weekly, monthly, quarterly, and optional hourly series
 - labels/projects.json: project coverage typed table
+- labels/projects_filtered.json: filtered project coverage typed table for owner_project values with actual datapoints such as txcount
 - apps/details/{owner_project}.json: rich app or project detail payload for owner_project values with mapped contract activity
 
 Metric quick reference
@@ -36,7 +37,9 @@ Metric quick reference
 
 Rules for safe use
 - Always validate origin_key and metric support in master.json before generating code.
-- Always validate owner_project in labels/projects.json before generating app-detail requests.
+- Use labels/projects.json for full project metadata and labels/projects_filtered.json for app-detail eligibility.
+- Use labels/projects.json for the full metadata universe and labels/projects_filtered.json for the subset that has actual datapoints.
+- Always validate app-detail candidates against labels/projects_filtered.json before generating app-detail requests.
 - Use metric_key from returned rows, not assumptions.
 - Do not exceed 10 API calls per minute.
 - Exclude chains whose deployment is DEV or ARCHIVED because those chains can expose stale data.

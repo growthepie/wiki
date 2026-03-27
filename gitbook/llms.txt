@@ -9,6 +9,7 @@ Use these pages first:
 - /api-reference/fundamentals-json for the broad 90-day daily export
 - /api-reference/export-metric-json for single-metric exports
 - /api-reference/metric-detail-json for rich per-chain metric detail JSON
+- /api-reference/labels-projects-filtered-json for the filtered owner_project set with real datapoints
 - /core-concepts/what-is-origin-key for origin_key
 - /core-concepts/what-is-owner-project for owner_project
 - /core-concepts/what-is-metric-key for metric_key
@@ -34,8 +35,10 @@ Public endpoints documented here:
 - /v1/chains/{origin_key}/overview.json
 - /v1/metrics/chains/{origin_key}/{metric_id}.json
 - /v1/labels/projects.json
+- /v1/labels/projects_filtered.json
 - /v1/apps/details/{owner_project}.json
 
 Safety rules:
 - Do not exceed 10 API calls per minute.
 - Exclude chains whose deployment is DEV or ARCHIVED because those chains can expose stale data.
+- Use labels/projects_filtered.json, not labels/projects.json, to discover which owner_project values have app-detail endpoints.

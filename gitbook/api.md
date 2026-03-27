@@ -43,6 +43,7 @@ No authentication is required for the public endpoints documented in this site.
 | `v1/chains/{origin_key}/overview.json` | You need chain summaries | Highlights, events, rankings, KPI cards, achievements, and ecosystem context |
 | `v1/metrics/chains/{origin_key}/{metric_id}.json` | You need a rich metric detail page | Daily, weekly, monthly, quarterly, and optional hourly time series plus summary values |
 | `v1/labels/projects.json` | You need project coverage | Project metadata as a typed table |
+| `v1/labels/projects_filtered.json` | You need projects with real datapoints | Filtered project metadata for `owner_project` values that have actual activity such as `txcount` |
 | `v1/apps/details/{owner_project}.json` | You need app or project detail | Project-level metrics, KPI cards, first-seen dates, chain breakdowns, and contracts tables |
 
 ## Stale Data Guardrail
@@ -63,7 +64,7 @@ Start with `master.json`. `master.json` tells you which `origin_key` values and 
 
 ### How do I fetch app-level details for one project?
 
-Use `apps/details/{owner_project}.json`. The `owner_project` list comes from `labels/projects.json`.
+Use `apps/details/{owner_project}.json`. The safest discovery source is `labels/projects_filtered.json`, because the app detail endpoint is only available for `owner_project` values in that filtered subset.
 
 ### Is there a published OpenAPI spec?
 
@@ -79,4 +80,5 @@ Use `metric_id` when the endpoint path expects a higher-level metric such as `tx
 * [Endpoint: master.json](api-reference/master-json.md)
 * [Endpoint: fundamentals.json](api-reference/fundamentals-json.md)
 * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)
+* [Endpoint: labels/projects_filtered.json](api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](api-reference/app-detail-json.md)

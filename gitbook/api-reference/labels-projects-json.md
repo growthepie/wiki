@@ -62,14 +62,17 @@ GET https://api.growthepie.com/v1/labels/projects.json
 * You need the canonical `owner_project` list
 * You need a project display name or description
 * You need app or project coverage metadata
-* You need to discover valid `owner_project` values before calling `apps/details/{owner_project}.json`
+* You need the full metadata universe, including projects that do not currently have datapoints
 
 ## Caveats
 
 * `labels/projects.json` is a table-oriented payload, not a flat list of objects.
 * Consumers should map `data.types` to each row in `data.data` before building objects locally.
+* `labels/projects.json` includes all projects with metadata, not just projects with observed datapoints.
+* For app-detail discovery, prefer `labels/projects_filtered.json`.
 
 ## Related Pages
 
 * [Projects And owner_project](../entity-coverage-reference/projects-and-owner-project.md)
+* [Endpoint: labels/projects_filtered.json](labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](app-detail-json.md)

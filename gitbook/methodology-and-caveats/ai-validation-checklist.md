@@ -29,12 +29,14 @@ Use these questions to test whether the docs are easy for both humans and AI sys
 19. Which chains support `tvl`?
 20. Which data availability layers are covered?
 21. Which endpoint exposes project coverage?
-22. Which endpoint exposes app detail for one `owner_project`?
-23. What rate limit should AI agents follow?
-24. Which chains should be excluded because `deployment` or `deployment_flag` is `DEV` or `ARCHIVED`?
-25. Which endpoints expose `last_updated_utc`?
-26. Which metrics have hourly detail?
-27. Are any public endpoints deprecated or legacy?
+22. What is the difference between `projects.json` and `projects_filtered.json`?
+23. Which endpoint exposes app detail for one `owner_project`?
+24. Which `owner_project` values can be used with `apps/details/{owner_project}.json`?
+25. What rate limit should AI agents follow?
+26. Which chains should be excluded because `deployment` or `deployment_flag` is `DEV` or `ARCHIVED`?
+27. Which endpoints expose `last_updated_utc`?
+28. Which metrics have hourly detail?
+29. Are any public endpoints deprecated or legacy?
 
 ## Manual Validation Checklist
 

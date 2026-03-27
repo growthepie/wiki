@@ -9,8 +9,10 @@ description: Reference for growthepie project coverage and owner_project identif
 ## Key Facts
 
 * Canonical source: `https://api.growthepie.com/v1/labels/projects.json`
+* App-detail discovery source: `https://api.growthepie.com/v1/labels/projects_filtered.json`
 * Last verified in this docs refresh: March 27, 2026
-* Live project count at that time: 6,650
+* Live project count in `projects.json` at that time: 6,650
+* Live project count in `projects_filtered.json` at that time: 757
 * Core fields: `owner_project`, `display_name`, `description`, `website`, `main_category`, `sub_category`
 
 ## Example Request
@@ -28,14 +30,22 @@ Use `labels/projects.json` when you need to answer questions such as:
 * Which categories and subcategories are assigned to a project?
 * Which project detail JSON path should I call for a given app?
 
+Use `labels/projects_filtered.json` when you need to answer questions such as:
+
+* Which `owner_project` values currently have actual datapoints such as `txcount`?
+* Which `owner_project` values can be used with `apps/details/{owner_project}.json`?
+
 ## Caveats
 
 * The payload is a typed table, not a list of JSON objects.
 * Coverage size changes over time, so prefer the live endpoint over hardcoded lists.
+* `projects.json` includes all projects with metadata.
+* `projects_filtered.json` is the subset with actual datapoints and is the correct discovery list for app-detail endpoints.
 
 ## Related Pages
 
 * [What Is owner_project?](../core-concepts/what-is-owner-project.md)
 * [Endpoint: labels/projects.json](../api-reference/labels-projects-json.md)
+* [Endpoint: labels/projects_filtered.json](../api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](../api-reference/app-detail-json.md)
 * [Chain vs App vs Ecosystem Metrics](../core-concepts/chain-vs-app-vs-ecosystem-metrics.md)

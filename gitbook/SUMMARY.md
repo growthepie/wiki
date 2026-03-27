@@ -28,6 +28,7 @@
   * [Endpoint: chains/{origin_key}/overview.json](api-reference/chain-overview-json.md)
   * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)
   * [Endpoint: labels/projects.json](api-reference/labels-projects-json.md)
+  * [Endpoint: labels/projects_filtered.json](api-reference/labels-projects-filtered-json.md)
   * [Endpoint: apps/details/{owner_project}.json](api-reference/app-detail-json.md)
 
 ## Metric Reference

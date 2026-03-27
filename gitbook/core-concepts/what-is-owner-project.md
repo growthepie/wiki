@@ -34,7 +34,7 @@ description: Learn what owner_project means in growthepie and where to find vali
 
 ### Where do I get valid `owner_project` values?
 
-Use `labels/projects.json`. That endpoint is the public discovery source for project identifiers and descriptive metadata.
+Use `labels/projects.json` for the full metadata universe. Use `labels/projects_filtered.json` when you need the subset of `owner_project` values that have actual datapoints and can be used with app-detail endpoints.
 
 ### What do I use `owner_project` for after discovery?
 
@@ -44,4 +44,5 @@ Use `owner_project` in app-level detail paths such as `apps/details/{owner_proje
 
 * [Projects And owner_project](../entity-coverage-reference/projects-and-owner-project.md)
 * [Endpoint: labels/projects.json](../api-reference/labels-projects-json.md)
+* [Endpoint: labels/projects_filtered.json](../api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](../api-reference/app-detail-json.md)

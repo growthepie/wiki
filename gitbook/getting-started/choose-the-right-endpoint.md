@@ -16,6 +16,7 @@ Different growthepie endpoints answer different developer intents. This page map
 | What does the chain overview for `arbitrum` look like? | `v1/chains/arbitrum/overview.json` | Returns highlights, events, rankings, KPI cards, and ecosystem context |
 | What is the rich metric detail view for `txcount` on `arbitrum`? | `v1/metrics/chains/arbitrum/txcount.json` | Returns multiple time granularities, changes, and summary values |
 | Which apps or projects are covered? | `v1/labels/projects.json` | Returns project coverage metadata |
+| Which projects have actual datapoints and can be used with app details? | `v1/labels/projects_filtered.json` | Returns the subset of projects with real datapoints such as `txcount` |
 | What does the project detail page for `uniswap` look like? | `v1/apps/details/uniswap.json` | Returns project-level metrics, KPI cards, first-seen dates, and contracts tables |
 
 ## Rule Of Thumb

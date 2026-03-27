@@ -42,6 +42,11 @@
       "auth_required": false
     },
     {
+      "path": "/v1/labels/projects_filtered.json",
+      "summary": "Filtered project coverage typed table for owner_project values with actual datapoints such as txcount.",
+      "auth_required": false
+    },
+    {
       "path": "/v1/apps/details/{owner_project}.json",
       "summary": "Rich project detail JSON for owner_project values with mapped contract activity.",
       "auth_required": false
