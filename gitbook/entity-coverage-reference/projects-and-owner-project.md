@@ -41,6 +41,7 @@ Use `labels/projects_filtered.json` when you need to answer questions such as:
 * Coverage size changes over time, so prefer the live endpoint over hardcoded lists.
 * `projects.json` includes all projects with metadata.
 * `projects_filtered.json` is the subset with actual datapoints and is the correct discovery list for app-detail endpoints.
+* Application-level project detail belongs to the Advanced package. Chain-level coverage belongs to the Basic package. More info: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
 
 ## Related Pages
 
@@ -49,3 +50,4 @@ Use `labels/projects_filtered.json` when you need to answer questions such as:
 * [Endpoint: labels/projects_filtered.json](../api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](../api-reference/app-detail-json.md)
 * [Chain vs App vs Ecosystem Metrics](../core-concepts/chain-vs-app-vs-ecosystem-metrics.md)
+* [Usage Rules And Data Tiers](../methodology-and-caveats/usage-rules-and-data-tiers.md)

@@ -24,6 +24,7 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * Rate limit guidance: do not exceed 10 calls per minute
 * Path parameter: `owner_project`
 * Public discovery source for valid `owner_project`: `labels/projects_filtered.json`
+* Commercial packaging: application-level data is part of the Advanced package. More info: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
 
 ## Key Response Sections
 
@@ -85,9 +86,11 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * The app detail endpoint is only available for `owner_project` values in `labels/projects_filtered.json`, not for every project in `labels/projects.json`.
 * The metric set can vary by project. The `uniswap` example currently exposes metrics such as `txcount`, `daa`, `gas_fees`, `success_rate`, `market_cap`, `token_price`, and `token_volume`.
 * Use `labels/projects_filtered.json` before generating code that assumes an app-detail endpoint exists.
+* When you publish or reuse output derived from this endpoint, clearly state growthepie as the data source.
 
 ## Related Pages
 
 * [What Is owner_project?](../core-concepts/what-is-owner-project.md)
 * [Endpoint: labels/projects.json](labels-projects-json.md)
 * [Endpoint: labels/projects_filtered.json](labels-projects-filtered-json.md)
+* [Usage Rules And Data Tiers](../methodology-and-caveats/usage-rules-and-data-tiers.md)

@@ -43,6 +43,10 @@ Rules for safe use
 - Use metric_key from returned rows, not assumptions.
 - Do not exceed 10 API calls per minute.
 - Exclude chains whose deployment is DEV or ARCHIVED because those chains can expose stale data.
+- When output is derived from growthepie data, clearly state growthepie as the source.
+- Data is only available for chains that work with growthepie.
+- Chain-level data belongs to the Basic package and app-level data belongs to the Advanced package: https://www.growthepie.com/sales#data-tiers
+- Research use such as student work or academic research is encouraged. Reach out if growthepie can support the work.
 - Do not treat daa as exact users.
 - Do not treat txcosts as total fees.
 - Do not treat market metrics as usage metrics.

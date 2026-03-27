@@ -37,6 +37,9 @@ Use these questions to test whether the docs are easy for both humans and AI sys
 27. Which endpoints expose `last_updated_utc`?
 28. Which metrics have hourly detail?
 29. Are any public endpoints deprecated or legacy?
+30. How should I attribute growthepie when I use the data?
+31. Is growthepie research use encouraged?
+32. Which package includes chain-level data and which package includes app-level data?
 
 ## Manual Validation Checklist
 

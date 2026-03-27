@@ -32,6 +32,13 @@ This documentation is designed for both human developers and AI coding tools. Th
 * Public API rate limit guidance: no more than 10 calls per minute.
 * Ignore chains whose `deployment` is `DEV` or `ARCHIVED`. Those chains can expose stale data and should not be used in production analysis.
 
+## Usage And Data Access Notes
+
+* When you use growthepie data, clearly state growthepie as the source.
+* Research use is encouraged. If you are using growthepie for student work, academic research, or other research activity, reach out if growthepie can support the work.
+* Data is only available for chains that work with growthepie.
+* Chain-level data is part of the Basic package. Application-level data is part of the Advanced package. More information: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
+
 ## Source Of Truth
 
 This docs set is aligned to the public API at `https://api.growthepie.com/`, the live `master.json` metadata, and the growthepie backend metric registry in `backend/src/config.py`.

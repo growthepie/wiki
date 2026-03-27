@@ -25,6 +25,13 @@ No authentication is required for the public endpoints documented in this site.
 * Public usage guidance: do not make more than 10 API calls per minute.
 * If you are building an AI agent, prefer fewer broader requests such as `master.json` plus one targeted detail endpoint instead of many repeated discovery calls.
 
+## Coverage And Data Packages
+
+* Data is only available for chains that work with growthepie.
+* Chain-level data belongs to the Basic package.
+* Application-level data such as `apps/details/{owner_project}.json` belongs to the Advanced package.
+* Commercial packaging details: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
+
 ## Response Conventions
 
 * Flat export endpoints such as `fundamentals.json` and `export/{metric}.json` return arrays of rows with `metric_key`, `origin_key`, `date`, and `value`.
@@ -66,6 +73,10 @@ Start with `master.json`. `master.json` tells you which `origin_key` values and 
 
 Use `apps/details/{owner_project}.json`. The safest discovery source is `labels/projects_filtered.json`, because the app detail endpoint is only available for `owner_project` values in that filtered subset.
 
+### What should I do if I publish growthepie data?
+
+Clearly state growthepie as the data source. If the usage is for research activity such as student or academic work, reach out if growthepie can support the work.
+
 ### Is there a published OpenAPI spec?
 
 Not at the moment. This docs set documents the current public JSON surface directly from the live API and backend source of truth.
@@ -82,3 +93,4 @@ Use `metric_id` when the endpoint path expects a higher-level metric such as `tx
 * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)
 * [Endpoint: labels/projects_filtered.json](api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](api-reference/app-detail-json.md)
+* [Usage Rules And Data Tiers](methodology-and-caveats/usage-rules-and-data-tiers.md)

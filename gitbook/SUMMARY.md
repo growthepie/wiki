@@ -82,6 +82,7 @@
 ## Methodology / Caveats
 
 * [Methodology Overview](methodology-and-caveats/README.md)
+  * [Usage Rules And Data Tiers](methodology-and-caveats/usage-rules-and-data-tiers.md)
   * [Freshness And Update Cadence](methodology-and-caveats/freshness-and-update-cadence.md)
   * [Coverage And Exclusions](methodology-and-caveats/coverage-and-exclusions.md)
   * [Metric Interpretation Caveats](methodology-and-caveats/metric-interpretation-caveats.md)

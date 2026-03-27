@@ -14,8 +14,10 @@ This docs set is designed so both humans and AI systems can cite definitive expl
 * Metric definitions are aligned to the growthepie backend metric registry
 * This docs pass documents only verified public endpoints
 * The repo now includes `llms.txt`, `llms-full.txt`, `public-api-catalog.json`, and `metric-catalog.json` as machine-readable discovery helpers
+* Usage guidance is explicit: attribute growthepie as the data source and check coverage before assuming a chain or app is available
 
 ## Related Pages
 
 * [Endpoint: master.json](../api-reference/master-json.md)
 * [AI Validation Checklist](ai-validation-checklist.md)
+* [Usage Rules And Data Tiers](usage-rules-and-data-tiers.md)
