@@ -23,7 +23,7 @@ To visualize Ethereum's story through data. Making data on the Ethereum ecosyste
 * Business metrics such as `fees`, `rent_paid`, `profit`, and `app_revenue`
 * Coverage metadata such as supported chains, DA layers, and projects
 
-## What growthepoe Measures on Application level
+## What growthepie Measures on Application level
 * Application activity metrics such as `txcount`, `daa`, and `gas_fees`
 * soon more market data, developer data, and much more
 
