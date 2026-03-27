@@ -65,6 +65,20 @@
   * [Plot A Timeseries](recipes/plot-a-timeseries.md)
   * [Export To CSV](recipes/export-to-csv.md)
 
+## Use Cases
+
+* [Use Cases Overview](use-cases/README.md)
+  * [How To Compare Layer 2 Transaction Count Over Time](use-cases/how-to-compare-layer-2-transaction-count-over-time.md)
+  * [How To Compare Base vs Arbitrum](use-cases/how-to-compare-base-vs-arbitrum.md)
+  * [How To Compare Stablecoin Supply Across Chains](use-cases/how-to-compare-stablecoin-supply-across-chains.md)
+  * [How To Find Which Metrics A Chain Supports](use-cases/how-to-find-which-metrics-a-chain-supports.md)
+  * [How To Get Chain Overview Data For Arbitrum](use-cases/how-to-get-chain-overview-data-for-arbitrum.md)
+  * [How To Identify Chains With Stale Data](use-cases/how-to-identify-chains-with-stale-data.md)
+  * [How To Use owner_project In The growthepie API](use-cases/how-to-use-owner-project-in-the-growthepie-api.md)
+  * [How To Use projects_filtered.json](use-cases/how-to-use-projects-filtered-json.md)
+  * [How To Fetch App-Level Metrics For Uniswap](use-cases/how-to-fetch-app-level-metrics-for-uniswap.md)
+  * [How To Find Top Apps On A Chain](use-cases/how-to-find-top-apps-on-a-chain.md)
+
 ## Methodology / Caveats
 
 * [Methodology Overview](methodology-and-caveats/README.md)
