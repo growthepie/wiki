@@ -36,6 +36,48 @@ The growthepie API is currently public. growthepie may change API access, packag
 * Application-level data such as `apps/details/{owner_project}.json` belongs to the Advanced package.
 * Commercial packaging details: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
 
+## Chain Metrics vs Application Metrics
+
+Use chain metrics when the question is about a network such as `arbitrum`, `base`, or `ethereum`. Use application metrics when the question is about a smart-contract application mapped to an `owner_project` such as `uniswap`, `polymarket`, or `circlefin`.
+
+### Chains
+
+Chains are the high-level network entities in growthepie. Chain metrics describe network-wide activity, economics, and value for one `origin_key`.
+
+Common chain metrics include:
+
+* `txcount`
+* `daa`
+* `fees`
+* `txcosts`
+* `throughput`
+* `tvl`
+* `stables_mcap`
+* `rent_paid`
+* `profit`
+* `market_cap`
+* `fdv`
+
+### Applications
+
+Applications are smart contracts mapped to `owner_project` values. Application metrics are mostly derived from activity on those mapped contracts, and the public app-detail endpoint returns those metrics for one project at a time.
+
+Common app metrics currently include:
+
+* `txcount`
+* `daa`
+* `gas_fees`
+* `success_rate`
+* `token_price`
+* `token_volume`
+* `market_cap`
+
+### Practical Rule
+
+* If the identifier is `origin_key`, you are usually working with chain-level data.
+* If the identifier is `owner_project`, you are usually working with application-level data.
+* Not every chain metric has an application-level equivalent, and the app metric set can vary by project.
+
 ## Response Conventions
 
 * Flat export endpoints such as `fundamentals.json` and `export/{metric}.json` return arrays of rows with `metric_key`, `origin_key`, `date`, and `value`.
@@ -96,6 +138,7 @@ Use `metric_id` when the endpoint path expects a higher-level metric such as `tx
 ## Related Pages
 
 * [Quickstart](getting-started/quickstart.md)
+* [Chain vs App vs Ecosystem Metrics](core-concepts/chain-vs-app-vs-ecosystem-metrics.md)
 * [Endpoint: master.json](api-reference/master-json.md)
 * [Endpoint: fundamentals.json](api-reference/fundamentals-json.md)
 * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)

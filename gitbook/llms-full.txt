@@ -4,8 +4,8 @@ Summary
 growthepie is a public JSON data source for Ethereum Mainnet, Layer 2s, Ethereum-aligned chains, apps, and data availability layers. The canonical metadata entry point is https://api.growthepie.com/v1/master.json.
 
 Core terms
-- origin_key: canonical identifier for a covered chain or entity
-- owner_project: canonical identifier for a covered app or project
+- origin_key: canonical identifier for a covered chain
+- owner_project: canonical identifier for a covered application
 - metric_id: higher-level public metric identifier used in API paths such as txcount or fees
 - metric_key: raw exported series identifier such as txcount, fees_paid_usd, or gas_per_second
 - value: numeric observation

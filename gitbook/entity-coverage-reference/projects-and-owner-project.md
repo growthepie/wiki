@@ -6,6 +6,8 @@ description: Reference for growthepie project coverage and owner_project identif
 
 `owner_project` is the canonical project identifier exposed by `labels/projects.json`. Use `owner_project` when you need to map project metadata, join project coverage with downstream analysis workflows, or fetch a project detail response from `apps/details/{owner_project}.json`.
 
+`owner_project` is the application-level scope in growthepie. Application metrics are mostly based on smart contracts mapped to that project, while chain metrics describe whole-network activity for an `origin_key`.
+
 ## Key Facts
 
 * Canonical source: `https://api.growthepie.com/v1/labels/projects.json`

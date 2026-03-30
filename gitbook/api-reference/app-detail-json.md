@@ -24,6 +24,7 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * Rate limit guidance: do not exceed 10 calls per minute
 * Path parameter: `owner_project`
 * Public discovery source for valid `owner_project`: `labels/projects_filtered.json`
+* Metric scope: application-level metrics are mostly based on smart contracts mapped to the `owner_project`
 * Commercial packaging: application-level data is part of the Advanced package. More info: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
 
 ## Key Response Sections
@@ -74,6 +75,7 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * You want chain-by-chain activity for one app
 * You need first-seen dates or contract-level tables for one project
 * You have already confirmed that the `owner_project` exists in `labels/projects_filtered.json`
+* You want metrics that are derived mostly from smart contracts mapped to a project rather than from whole-chain activity
 
 ## When Not To Use apps/details/{owner_project}.json
 
@@ -87,6 +89,7 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * The metric set can vary by project. The `uniswap` example currently exposes metrics such as `txcount`, `daa`, `gas_fees`, `success_rate`, `market_cap`, `token_price`, and `token_volume`.
 * Use `labels/projects_filtered.json` before generating code that assumes an app-detail endpoint exists.
 * When you publish or reuse output derived from this endpoint, clearly state growthepie as the data source.
+* Application metrics are not the same thing as chain metrics. If you need network-wide values for a chain, use chain endpoints keyed by `origin_key`.
 
 ## Related Pages
 
