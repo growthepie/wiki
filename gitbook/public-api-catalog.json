@@ -27,6 +27,11 @@
       "auth_required": false
     },
     {
+      "path": "/v1/fees/table.json",
+      "summary": "Cross-chain hourly fee table payload with transaction-cost metrics, TPS, throughput, and normalized comparison values.",
+      "auth_required": false
+    },
+    {
       "path": "/v1/chains/{origin_key}/overview.json",
       "summary": "Rich chain summary with highlights, events, rankings, KPI cards, achievements, and ecosystem context.",
       "auth_required": false

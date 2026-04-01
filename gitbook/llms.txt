@@ -8,6 +8,7 @@ Use these pages first:
 - /api-reference/master-json for chain, metric, unit, and coverage discovery
 - /api-reference/fundamentals-json for the broad 90-day daily export
 - /api-reference/export-metric-json for single-metric exports
+- /api-reference/fees-table-json for the latest cross-chain transaction-cost table
 - /api-reference/metric-detail-json for rich per-chain metric detail JSON
 - /api-reference/labels-projects-filtered-json for the filtered owner_project set with real datapoints
 - /core-concepts/what-is-origin-key for origin_key
@@ -32,6 +33,7 @@ Public endpoints documented here:
 - /v1/master.json
 - /v1/fundamentals.json
 - /v1/export/{metric}.json
+- /v1/fees/table.json
 - /v1/chains/{origin_key}/overview.json
 - /v1/metrics/chains/{origin_key}/{metric_id}.json
 - /v1/labels/projects.json

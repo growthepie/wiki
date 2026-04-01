@@ -59,3 +59,4 @@ curl -s https://api.growthepie.com/v1/export/txcosts.json
 
 * [fees](fees.md)
 * [throughput](throughput.md)
+* [Endpoint: fees/table.json](../api-reference/fees-table-json.md)

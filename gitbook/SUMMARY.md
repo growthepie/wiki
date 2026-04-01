@@ -25,6 +25,7 @@
   * [Endpoint: master.json](api-reference/master-json.md)
   * [Endpoint: fundamentals.json](api-reference/fundamentals-json.md)
   * [Endpoint: export/{metric}.json](api-reference/export-metric-json.md)
+  * [Endpoint: fees/table.json](api-reference/fees-table-json.md)
   * [Endpoint: chains/{origin_key}/overview.json](api-reference/chain-overview-json.md)
   * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)
   * [Endpoint: labels/projects.json](api-reference/labels-projects-json.md)

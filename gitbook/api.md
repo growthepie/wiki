@@ -93,6 +93,7 @@ Common app metrics currently include:
 | `v1/master.json` | You need metadata and coverage | Chains, metrics, DA layers, sources, and canonical metadata |
 | `v1/fundamentals.json` | You need a broad daily export | Flat daily rows for supported fundamental metrics in the last 90 days |
 | `v1/export/{metric}.json` | You need one metric across all covered chains | Flat daily rows for a single fundamental metric |
+| `v1/fees/table.json` | You need the latest cross-chain transaction-cost table | Per-chain hourly fee-table payload with cost, TPS, throughput, and normalized comparison values |
 | `v1/chains/{origin_key}/overview.json` | You need chain summaries | Highlights, events, rankings, KPI cards, achievements, and ecosystem context |
 | `v1/metrics/chains/{origin_key}/{metric_id}.json` | You need a rich metric detail page | Daily, weekly, monthly, quarterly, and optional hourly time series plus summary values |
 | `v1/labels/projects.json` | You need project coverage | Project metadata as a typed table |
@@ -141,6 +142,7 @@ Use `metric_id` when the endpoint path expects a higher-level metric such as `tx
 * [Chain vs App vs Ecosystem Metrics](core-concepts/chain-vs-app-vs-ecosystem-metrics.md)
 * [Endpoint: master.json](api-reference/master-json.md)
 * [Endpoint: fundamentals.json](api-reference/fundamentals-json.md)
+* [Endpoint: fees/table.json](api-reference/fees-table-json.md)
 * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)
 * [Endpoint: labels/projects_filtered.json](api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](api-reference/app-detail-json.md)
