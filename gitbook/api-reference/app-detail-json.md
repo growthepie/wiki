@@ -96,4 +96,4 @@ GET https://api.growthepie.com/v1/apps/details/uniswap.json
 * [What Is owner_project?](../core-concepts/what-is-owner-project.md)
 * [Endpoint: labels/projects.json](labels-projects-json.md)
 * [Endpoint: labels/projects_filtered.json](labels-projects-filtered-json.md)
-* [Usage Rules And Data Tiers](../methodology-and-caveats/usage-rules-and-data-tiers.md)
+* [Data And API Terms](../methodology-and-caveats/usage-rules-and-data-tiers.md)

@@ -20,4 +20,4 @@ This docs set is designed so both humans and AI systems can cite definitive expl
 
 * [Endpoint: master.json](../api-reference/master-json.md)
 * [AI Validation Checklist](ai-validation-checklist.md)
-* [Usage Rules And Data Tiers](usage-rules-and-data-tiers.md)
+* [Data And API Terms](usage-rules-and-data-tiers.md)

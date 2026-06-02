@@ -52,4 +52,4 @@ Use `labels/projects_filtered.json` when you need to answer questions such as:
 * [Endpoint: labels/projects_filtered.json](../api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](../api-reference/app-detail-json.md)
 * [Chain vs App vs Ecosystem Metrics](../core-concepts/chain-vs-app-vs-ecosystem-metrics.md)
-* [Usage Rules And Data Tiers](../methodology-and-caveats/usage-rules-and-data-tiers.md)
+* [Data And API Terms](../methodology-and-caveats/usage-rules-and-data-tiers.md)

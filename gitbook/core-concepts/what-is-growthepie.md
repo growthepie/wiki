@@ -31,8 +31,8 @@ To visualize Ethereum's story through data. Making data on the Ethereum ecosyste
 
 ## Usage Rules
 
-* When you use growthepie data, clearly state growthepie as the source.
-* Research activities such as student work and academic research are encouraged. Reach out if growthepie can support your work.
+* Public growthepie data, chart exports, CSV downloads, and public API outputs are covered by the [Data And API Terms](../methodology-and-caveats/usage-rules-and-data-tiers.md).
+* Preferred attribution: Source: growthepie, [https://www.growthepie.com](https://www.growthepie.com).
 
 ## FAQ
 
@@ -46,11 +46,11 @@ No. growthepie covers Ethereum Mainnet as well as Layer 2s, Ethereum-aligned cha
 
 ### Can I use growthepie data in research?
 
-Yes. Research use is encouraged. If you are working on student, academic, or other research activity, reach out if growthepie can help support the work.
+Yes. You may use growthepie data for research, journalism, dashboards, applications, reports, models, and commercial or non-commercial products, provided that you follow the [Data And API Terms](../methodology-and-caveats/usage-rules-and-data-tiers.md).
 
 ## Related Pages
 
 * [What Is origin_key?](what-is-origin-key.md)
 * [What Is metric_key?](what-is-metric-key.md)
-* [Usage Rules And Data Tiers](../methodology-and-caveats/usage-rules-and-data-tiers.md)
+* [Data And API Terms](../methodology-and-caveats/usage-rules-and-data-tiers.md)
 * [Endpoint: master.json](../api-reference/master-json.md)

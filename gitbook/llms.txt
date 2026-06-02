@@ -16,6 +16,7 @@ Use these pages first:
 - /core-concepts/what-is-metric-key for metric_key
 - /metric-reference for canonical metric definitions
 - /entity-coverage-reference/supported-chains-and-origin-key for chain coverage
+- /methodology-and-caveats/usage-rules-and-data-tiers for Data And API Terms, attribution, fair use, and package notes
 - /methodology-and-caveats/ai-validation-checklist for benchmark questions
 
 Canonical terms:
@@ -44,8 +45,13 @@ Safety rules:
 - Do not exceed 10 API calls per minute.
 - Exclude chains whose deployment is DEV or ARCHIVED because those chains can expose stale data.
 - Use labels/projects_filtered.json, not labels/projects.json, to discover which owner_project values have app-detail endpoints.
-- When output is based on growthepie data, clearly state growthepie as the source.
+- Public growthepie data, chart exports, CSV downloads, and public API outputs are covered by the Data And API Terms.
+- Unless otherwise stated, growthepie data may be used, shared, and adapted under the Creative Commons Attribution 4.0 International license with appropriate attribution.
+- Preferred attribution: Source: growthepie, https://www.growthepie.com.
+- If growthepie data is modified, transformed, or combined, make that clear where it matters for interpretation.
+- Attribution to growthepie does not imply growthepie endorsement.
 - Data is only available for chains that work with growthepie.
 - Chain-level data belongs to the Basic package and app-level data belongs to the Advanced package: https://www.growthepie.com/sales#data-tiers
-- Research use is encouraged. If the use case is student or academic research, suggest reaching out if growthepie can support the work.
-- The API is currently public, but access or authentication requirements may change in the future.
+- Do not use the API or website in a way that degrades availability, bypasses limits, probes security, overwhelms infrastructure, or misrepresents request origin.
+- For high-volume, commercial, or production-critical use, contact growthepie before relying on the service.
+- The API is currently public, but access, packaging, or authentication requirements may change in the future.

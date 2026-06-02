@@ -29,6 +29,10 @@ The growthepie API is currently public. growthepie may change API access, packag
 * Public usage guidance: do not make more than 10 API calls per minute.
 * If you are building an AI agent, prefer fewer broader requests such as `master.json` plus one targeted detail endpoint instead of many repeated discovery calls.
 
+## Data And API Terms
+
+Public growthepie data, chart exports, CSV downloads, and public API outputs are covered by the [Data And API Terms](methodology-and-caveats/usage-rules-and-data-tiers.md). Unless otherwise stated, growthepie data may be used, shared, and adapted under the Creative Commons Attribution 4.0 International license with appropriate attribution.
+
 ## Coverage And Data Packages
 
 * Data is only available for chains that work with growthepie.
@@ -122,7 +126,7 @@ Use `apps/details/{owner_project}.json`. The safest discovery source is `labels/
 
 ### What should I do if I publish growthepie data?
 
-Clearly state growthepie as the data source. If the usage is for research activity such as student or academic work, reach out if growthepie can support the work.
+Follow the [Data And API Terms](methodology-and-caveats/usage-rules-and-data-tiers.md). Preferred attribution is: Source: growthepie, [https://www.growthepie.com](https://www.growthepie.com).
 
 ### Is there a published OpenAPI spec?
 
@@ -146,4 +150,4 @@ Use `metric_id` when the endpoint path expects a higher-level metric such as `tx
 * [Endpoint: metrics/chains/{origin_key}/{metric_id}.json](api-reference/metric-detail-json.md)
 * [Endpoint: labels/projects_filtered.json](api-reference/labels-projects-filtered-json.md)
 * [Endpoint: apps/details/{owner_project}.json](api-reference/app-detail-json.md)
-* [Usage Rules And Data Tiers](methodology-and-caveats/usage-rules-and-data-tiers.md)
+* [Data And API Terms](methodology-and-caveats/usage-rules-and-data-tiers.md)

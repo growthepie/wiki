@@ -33,10 +33,11 @@ This documentation is designed for both human developers and AI coding tools. Th
 * Ignore chains whose `deployment` is `DEV` or `ARCHIVED`. Those chains can expose stale data and should not be used in production analysis.
 * The API is currently public, but growthepie may change API access or authentication requirements in the future.
 
-## Usage And Data Access Notes
+## Data And API Terms
 
-* When you use growthepie data, clearly state growthepie as the source.
-* Research use is encouraged. If you are using growthepie for student work, academic research, or other research activity, reach out if growthepie can support the work.
+* Public growthepie data, chart exports, CSV downloads, and public API outputs are covered by the [Data And API Terms](methodology-and-caveats/usage-rules-and-data-tiers.md).
+* Unless otherwise stated, growthepie data may be used, shared, and adapted under the Creative Commons Attribution 4.0 International license with appropriate attribution.
+* Preferred attribution: Source: growthepie, [https://www.growthepie.com](https://www.growthepie.com).
 * Data is only available for chains that work with growthepie.
 * Chain-level data is part of the Basic package. Application-level data is part of the Advanced package. More information: [growthepie data tiers](https://www.growthepie.com/sales#data-tiers)
 

@@ -1,5 +1,13 @@
 {
   "api_root": "https://api.growthepie.com/",
+  "data_terms": {
+    "last_updated": "2026-06-02",
+    "docs_path": "/methodology-and-caveats/usage-rules-and-data-tiers",
+    "license": "Creative Commons Attribution 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "preferred_attribution": "Source: growthepie, https://www.growthepie.com",
+    "fair_use_note": "Do not use the API or website in a way that degrades availability, bypasses limits, probes security, overwhelms infrastructure, or misrepresents request origin."
+  },
   "canonical_terms": [
     "origin_key",
     "metric_id",
