@@ -6,7 +6,7 @@ description: >-
 
 # API Overview
 
-The growthepie API is a public JSON API rooted at `https://api.growthepie.com/`. The fastest way to work with the API is to start with `master.json` for metadata, use `fundamentals.json` or `export/{metric}.json` for flat daily rows, and use the richer `chains/.../overview.json`, `metrics/.../{metric_id}.json`, or `apps/details/{owner_project}.json` endpoints when you need summaries, rankings, rolling windows, or multi-granularity time series.
+The growthepie API is a JSON API rooted at `https://api.growthepie.com/`. The fastest way to work with the API is to start with `master.json` for metadata, use `fundamentals.json` or `export/{metric}.json` for flat daily rows, and use the richer `chains/.../overview.json`, `metrics/.../{metric_id}.json`, or `apps/details/{owner_project}.json` endpoints when you need summaries, rankings, rolling windows, or multi-granularity time series.
 
 The API currently exposes JSON files rather than a published OpenAPI specification. That means the canonical source of truth for supported chains, metrics, units, and coverage is `master.json`, plus the backend metric registry mirrored in the docs on this site.
 
