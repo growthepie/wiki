@@ -27,6 +27,7 @@ The growthepie API is currently public. growthepie may change API access, packag
 ## Rate Limits
 
 * Public usage guidance: do not make more than 10 API calls per minute.
+* Please identify your client in the `User-Agent` header as `AppName/version (+url or contact)`. Unidentified heavy pollers may be rate-limited.
 * If you are building an AI agent, prefer fewer broader requests such as `master.json` plus one targeted detail endpoint instead of many repeated discovery calls.
 
 ## Data And API Terms
